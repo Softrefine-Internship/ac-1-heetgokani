@@ -1,0 +1,50 @@
+.three_big_line_icon {
+  width: 5rem;
+  height: 4rem;
+  margin: 0 0 0 -0.5rem;
+  transition: all 0.3s ease-in;
+}
+.three_big_line_icon:hover {
+  transform: rotate(360deg);
+  cursor: pointer;
+}
+.addition_icon {
+  height: 2rem;
+  width: 2rem;
+  color: $white_color;
+  background-color: $black_color;
+  padding: 0.4rem;
+  border-radius: 50%;
+  margin-left: 32rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.addition_icon:hover {
+  transform: scale(1.1);
+}
+.icon__flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 3rem 0 0 0.5rem;
+  &--icons {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: $black_color;
+    padding: 1rem;
+    gap: 1rem;
+    transition: all 0.4s ease;
+    border-radius: 50%;
+    &:hover {
+      background-color: $black_color;
+      cursor: pointer;
+      color: $white_color;
+    }
+    &:first-child {
+      background-color: $black_color;
+      color: $white_color;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,209 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.three_big_line_icon {
+  width: 5rem;
+  height: 4rem;
+  margin: 0 0 0 -0.5rem;
+  transition: all 0.3s ease-in;
+}
+
+.three_big_line_icon:hover {
+  transform: rotate(360deg);
+  cursor: pointer;
+}
+
+.addition_icon {
+  height: 2rem;
+  width: 2rem;
+  color: #ffffff;
+  background-color: #151522;
+  padding: 0.4rem;
+  border-radius: 50%;
+  margin-left: 32rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.addition_icon:hover {
+  transform: scale(1.1);
+}
+
+.icon__flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 3rem 0 0 0.5rem;
+}
+.icon__flex--icons {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #151522;
+  padding: 1rem;
+  gap: 1rem;
+  transition: all 0.4s ease;
+  border-radius: 50%;
+}
+.icon__flex--icons:hover {
+  background-color: #151522;
+  cursor: pointer;
+  color: #ffffff;
+}
+.icon__flex--icons:first-child {
+  background-color: #151522;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.main__container {
+  background-color: #e9e7fd;
+  width: 100vw;
+  height: 100vh;
+}
+
+.sub__container {
+  background-color: #f3f6fd;
+  top: 50%;
+  left: 50%;
+  width: 90vw;
+  border-radius: 3.3rem;
+  height: 90vh;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.vertical_line {
+  width: 0.1rem;
+  height: 3rem;
+  background-color: gray;
+}
+
+.profilesection__image {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 50%;
+  margin: 0 0.5rem 0 1rem;
+  transition: all 0.3s ease;
+}
+.profilesection__image:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.profile_class {
+  display: flex;
+  align-items: center;
+}
+
+.Portfolio__txt {
+  font-size: 3.25rem;
+  margin-left: 8rem;
+  font-family: "poppins";
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.Portfolio__txt:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.Profile_name {
+  font-size: 2rem;
+  color: #151522;
+  margin: 0 0 0 0;
+  font-family: "poppins";
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.Profile_name:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.bellsection {
+  position: relative;
+}
+.bellsection__icon {
+  height: 2.5rem;
+  width: 4rem;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  transition: all 0.3s ease;
+}
+.bellsection__icon:hover {
+  transform: rotate(20deg);
+  cursor: pointer;
+}
+.bellsection__dot {
+  position: absolute;
+  height: 0.7rem;
+  width: 0.7rem;
+  top: 10%;
+  left: 55%;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.searchbar {
+  position: relative;
+  margin-left: 9rem;
+}
+.searchbar__element {
+  width: 28rem;
+  height: 3rem;
+  outline: none;
+  padding: 1.8rem 3rem;
+  border-radius: 5rem;
+  border: none;
+}
+.searchbar__icon {
+  position: absolute;
+  top: 30%;
+  left: 2%;
+  height: 1.5rem;
+  width: 2rem;
+}
+
+.header__flex {
+  margin: 2rem 3rem 2rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sub_container_grid {
+  display: grid;
+  grid-template-columns: 8% 57% 35%;
+}
+
+.col_1 {
+  overflow: auto;
+  height: 50rem;
+}
+
+.col_2 {
+  height: 55rem;
+  color: white;
+  background-color: #ffffff;
+  border-radius: 7%;
+  overflow: auto;
+}
+
+.col_3 {
+  height: 55rem;
+  color: white;
+  overflow: auto;
+}
+
+/*# sourceMappingURL=style.css.map */

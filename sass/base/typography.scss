@@ -1,0 +1,23 @@
+.Portfolio__txt {
+  font-size: 3.25rem;
+  margin-left: 8rem;
+  font-family: "poppins";
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.Portfolio__txt:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.Profile_name {
+  font-size: 2rem;
+  color: $black_color;
+  margin: 0 0 0 0;
+  font-family: "poppins";
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.Profile_name:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

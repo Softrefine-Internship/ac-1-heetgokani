@@ -1,0 +1,28 @@
+// Flex Section
+.header__flex {
+  margin: 2rem 3rem 2rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+// Grid Section
+.sub_container_grid {
+  display: grid;
+  grid-template-columns: 8% 57% 35%;
+}
+.col_1 {
+  overflow: auto;
+  height: 50rem;
+}
+.col_2 {
+  height: 55rem;
+  color: white;
+  background-color: $white_color;
+  border-radius: 7%;
+  overflow: auto;
+}
+.col_3 {
+  height: 55rem;
+  color: white;
+  overflow: auto;
+}
