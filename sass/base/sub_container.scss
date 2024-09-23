@@ -2,9 +2,8 @@
   background-color: $sub_container_bg_color;
   top: 50%;
   left: 50%;
-  width: 90vw;
-  border-radius: 3.3rem;
-  height: 90vh;
+  width: 100vw;
+  height: 100vh;
   position: absolute;
   transform: translate(-50%, -50%);
   overflow: hidden;
@@ -19,14 +18,25 @@
     width: 3.6rem;
     height: 3.6rem;
     border-radius: 50%;
-    margin: 0 0.5rem 0 1rem;
+    margin: 0 1rem 0 1rem;
     transition: all 0.3s ease;
-
-    &:hover {
-      transform: scale(1.1);
-      cursor: pointer;
-    }
   }
+}
+.sub_container_body_section {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+}
+
+.cards_section {
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.profilesection__image:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 .in_projects_section {
   margin: 0 0 0 2rem;
