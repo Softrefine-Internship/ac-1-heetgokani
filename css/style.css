@@ -149,70 +149,736 @@ html {
 
 .card_1 {
   width: 24rem;
-  height: 22rem;
+  height: 23.5rem;
   background-color: #ffffff;
   border-radius: 15%;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  position: relative;
+}
+.card_1 .progress_sub {
+  height: 100%;
+  background-color: rgba(0, 183, 255, 0.829);
+  border-radius: 1.5rem;
+  width: 90%;
+}
+.card_1 .progress_digit {
+  color: #151522;
+  font-size: 1.2rem;
+  font-family: "poppins";
+  margin: 0.5rem 0 0.7rem 20rem;
+}
+.card_1 .card_addition_icon {
+  background-color: rgb(0, 183, 255);
+  color: #ffffff;
+  height: 1.65rem;
+  width: 1.65rem;
+  border-radius: 50%;
+  padding: 0.1rem;
+  margin: 1.5rem 0 0 -0.3rem;
+}
+.card_1 .time_left_btn {
+  background-color: rgba(47, 217, 247, 0.295);
+  color: rgb(0, 183, 255);
+  font-family: "poppins";
+  font-weight: 700;
+  padding: 0.5rem 1.2rem;
+  border-radius: 1.5rem;
+  border: none;
+  font-size: 1.2rem;
+  margin: 1rem 0 0 5rem;
+  transition: all 0.1s ease-in;
+}
+.card_1 .time_left_btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.card_1 .progress_bar {
+  width: 85%;
+  margin: 1rem 1.5rem 0 1.7rem;
+  height: 0.5rem;
+  background-color: rgba(128, 128, 128, 0.534);
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+.card_1 .progress_digit {
+  color: #151522;
+  font-size: 1.2rem;
+  font-family: "poppins";
+  margin: 0.5rem 0 0.7rem 20rem;
+}
+.card_1 .btnsection {
+  border-top: 0.1px solid rgba(128, 128, 128, 0.63);
+  display: flex;
+}
+.card_1 .btnsection__avatarone {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 1.5rem 1.5rem 0 1.7rem;
+}
+.card_1 .btnsection__avatartwo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 1.5rem 1rem 1rem -2.3rem;
+}
+.card_1:hover {
+  cursor: pointer;
+}
+.card_1::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 183, 255, 0.829);
+  width: 80%;
+  height: 0.3rem;
+  visibility: hidden;
+  border-radius: 2rem;
+  opacity: 0;
+  transition: all 0 ease-in-out;
+  bottom: -1.3rem;
+  transform: translate(-50%, -50%);
+  margin: 0 0 0 2rem;
+}
+.card_1::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 183, 255, 0.829);
+  visibility: hidden;
+  transition: all 0 ease-in-out;
+  margin: 0 0 0 4rem;
+  bottom: -2.3rem;
+  border-radius: 2rem;
+  width: 65%;
+  height: 0.3rem;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.card_1:hover::before,
+.card_1:hover::after {
+  opacity: 1;
+  visibility: visible;
+  cursor: pointer;
+  transform: translateY(0.2rem);
 }
 
 .card_2 {
   width: 24rem;
-  height: 22rem;
+  height: 23.5rem;
   background-color: #fde5cc;
   border-radius: 15%;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  position: relative;
+}
+.card_2 .progress_sub {
+  height: 100%;
+  background-color: orangered;
+  border-radius: 1.5rem;
+  width: 40%;
+}
+.card_2 .progress_digit {
+  color: #151522;
+  font-size: 1.2rem;
+  font-family: "poppins";
+  margin: 0.5rem 0 0.7rem 20rem;
+}
+.card_2 .card_addition_icon {
+  background-color: orangered;
+  color: #ffffff;
+  height: 1.65rem;
+  width: 1.65rem;
+  border-radius: 50%;
+  padding: 0.1rem;
+  margin: 1.5rem 0 0 -0.3rem;
+}
+.card_2 .time_left_btn {
+  background-color: orangered;
+  color: #ffffff;
+  font-family: "poppins";
+  font-weight: 700;
+  padding: 0.5rem 1.2rem;
+  border-radius: 1.5rem;
+  border: none;
+  font-size: 1.2rem;
+  margin: 1rem 0 0 5rem;
+  transition: all 0.1s ease-in;
+}
+.card_2 .time_left_btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.card_2 .progress_bar {
+  width: 85%;
+  margin: 1rem 1.5rem 0 1.7rem;
+  height: 0.5rem;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+.card_2 .progress_digit {
+  color: #151522;
+  font-size: 1.2rem;
+  font-family: "poppins";
+  margin: 0.5rem 0 0.7rem 20rem;
+}
+.card_2 .btnsection {
+  border-top: 0.1px solid #ffffff;
+  display: flex;
+}
+.card_2 .btnsection__avatarone {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 1.5rem 1.5rem 0 1.7rem;
+}
+.card_2 .btnsection__avatartwo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 1.5rem 1rem 1rem -2.3rem;
+}
+.card_2:hover {
+  cursor: pointer;
+}
+.card_2::before {
+  content: "";
+  position: absolute;
+  background-color: #fad6b0;
+  width: 80%;
+  height: 0.3rem;
+  visibility: hidden;
+  border-radius: 2rem;
+  opacity: 0;
+  transition: all 0 ease-in-out;
+  bottom: -1.3rem;
+  transform: translate(-50%, -50%);
+  margin: 0 0 0 2rem;
+}
+.card_2::after {
+  content: "";
+  position: absolute;
+  background-color: #fad6b0;
+  visibility: hidden;
+  transition: all 0 ease-in-out;
+  margin: 0 0 0 4rem;
+  bottom: -2.3rem;
+  border-radius: 2rem;
+  width: 65%;
+  height: 0.3rem;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.card_2:hover::before,
+.card_2:hover::after {
+  opacity: 1;
+  visibility: visible;
+  cursor: pointer;
+  transform: translateY(0.2rem);
 }
 
 .card_3 {
   width: 24rem;
-  height: 22rem;
+  height: 23.5rem;
   background-color: #b4f1ce;
   border-radius: 15%;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  position: relative;
+}
+.card_3 .progress_sub {
+  height: 100%;
+  background-color: green;
+  border-radius: 1.5rem;
+  width: 50%;
+}
+.card_3 .progress_digit {
+  color: #151522;
+  font-size: 1.2rem;
+  font-family: "poppins";
+  margin: 0.5rem 0 0.7rem 20rem;
+}
+.card_3 .card_addition_icon {
+  background-color: green;
+  color: #ffffff;
+  height: 1.65rem;
+  width: 1.65rem;
+  border-radius: 50%;
+  padding: 0.1rem;
+  margin: 1.5rem 0 0 -0.3rem;
+}
+.card_3 .time_left_btn {
+  background-color: #ffffff;
+  color: green;
+  font-family: "poppins";
+  font-weight: 700;
+  padding: 0.5rem 1.2rem;
+  border-radius: 1.5rem;
+  border: none;
+  font-size: 1.2rem;
+  margin: 1rem 0 0 5rem;
+  transition: all 0.1s ease-in;
+}
+.card_3 .time_left_btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.card_3 .progress_bar {
+  width: 85%;
+  margin: 1rem 1.5rem 0 1.7rem;
+  height: 0.5rem;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+.card_3 .progress_digit {
+  color: #151522;
+  font-size: 1.2rem;
+  font-family: "poppins";
+  margin: 0.5rem 0 0.7rem 20rem;
+}
+.card_3 .btnsection {
+  border-top: 0.1px solid #ffffff;
+  display: flex;
+}
+.card_3 .btnsection__avatarone {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 1.5rem 1.5rem 0 1.7rem;
+}
+.card_3 .btnsection__avatartwo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 1.5rem 1rem 1rem -2.3rem;
+}
+.card_3:hover {
+  cursor: pointer;
+}
+.card_3::before {
+  content: "";
+  position: absolute;
+  background-color: green;
+  width: 80%;
+  height: 0.3rem;
+  visibility: hidden;
+  border-radius: 2rem;
+  opacity: 0;
+  transition: all 0 ease-in-out;
+  bottom: -1.3rem;
+  transform: translate(-50%, -50%);
+  margin: 0 0 0 2rem;
+}
+.card_3::after {
+  content: "";
+  position: absolute;
+  background-color: green;
+  visibility: hidden;
+  transition: all 0 ease-in-out;
+  margin: 0 0 0 4rem;
+  bottom: -2.3rem;
+  border-radius: 2rem;
+  width: 65%;
+  height: 0.3rem;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.card_3:hover::before,
+.card_3:hover::after {
+  opacity: 1;
+  visibility: visible;
+  cursor: pointer;
+  transform: translateY(0.2rem);
 }
 
 .card_4 {
   width: 24rem;
-  height: 22rem;
-  background-color: #edcdf8;
+  height: 23.5rem;
+  background-color: #ffd3e2;
   border-radius: 15%;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  position: relative;
+}
+.card_4 .progress_sub {
+  height: 100%;
+  background-color: rgb(218, 129, 159);
+  border-radius: 1.5rem;
+  width: 20%;
+}
+.card_4 .progress_digit {
+  color: #151522;
+  font-size: 1.2rem;
+  font-family: "poppins";
+  margin: 0.5rem 0 0.7rem 20rem;
+}
+.card_4 .card_addition_icon {
+  background-color: rgb(218, 129, 159);
+  color: #ffffff;
+  height: 1.65rem;
+  width: 1.65rem;
+  border-radius: 50%;
+  padding: 0.1rem;
+  margin: 1.5rem 0 0 -0.3rem;
+}
+.card_4 .time_left_btn {
+  background-color: #ffffff;
+  color: rgb(218, 129, 159);
+  font-family: "poppins";
+  font-weight: 700;
+  padding: 0.5rem 1.2rem;
+  border-radius: 1.5rem;
+  border: none;
+  font-size: 1.2rem;
+  margin: 1rem 0 0 5rem;
+  transition: all 0.1s ease-in;
+}
+.card_4 .time_left_btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.card_4 .progress_bar {
+  width: 85%;
+  margin: 1rem 1.5rem 0 1.7rem;
+  height: 0.5rem;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+.card_4 .progress_digit {
+  color: #151522;
+  font-size: 1.2rem;
+  font-family: "poppins";
+  margin: 0.5rem 0 0.7rem 20rem;
+}
+.card_4 .btnsection {
+  border-top: 0.1px solid #ffffff;
+  display: flex;
+}
+.card_4 .btnsection__avatarone {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 1.5rem 1.5rem 0 1.7rem;
+}
+.card_4 .btnsection__avatartwo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 1.5rem 1rem 1rem -2.3rem;
+}
+.card_4:hover {
+  cursor: pointer;
+}
+.card_4::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(218, 129, 159);
+  width: 80%;
+  height: 0.3rem;
+  visibility: hidden;
+  border-radius: 2rem;
+  opacity: 0;
+  transition: all 0 ease-in-out;
+  bottom: -1.3rem;
+  transform: translate(-50%, -50%);
+  margin: 0 0 0 2rem;
+}
+.card_4::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(218, 129, 159);
+  visibility: hidden;
+  transition: all 0 ease-in-out;
+  margin: 0 0 0 4rem;
+  bottom: -2.3rem;
+  border-radius: 2rem;
+  width: 65%;
+  height: 0.3rem;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.card_4:hover::before,
+.card_4:hover::after {
+  opacity: 1;
+  visibility: visible;
+  cursor: pointer;
+  transform: translateY(0.2rem);
 }
 
 .card_5 {
   width: 24rem;
-  height: 22rem;
-  background-color: #e9e7fd;
+  height: 23.5rem;
+  background-color: #edcdf8;
   border-radius: 15%;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  position: relative;
+}
+.card_5 .progress_sub {
+  height: 100%;
+  background-color: purple;
+  border-radius: 1.5rem;
+  width: 70%;
+}
+.card_5 .progress_digit {
+  color: #151522;
+  font-size: 1.2rem;
+  font-family: "poppins";
+  margin: 0.5rem 0 0.7rem 20rem;
+}
+.card_5 .card_addition_icon {
+  background-color: purple;
+  color: #ffffff;
+  height: 1.65rem;
+  width: 1.65rem;
+  border-radius: 50%;
+  padding: 0.1rem;
+  margin: 1.5rem 0 0 -0.3rem;
+}
+.card_5 .time_left_btn {
+  background-color: #ffffff;
+  color: purple;
+  font-family: "poppins";
+  font-weight: 700;
+  padding: 0.5rem 1.2rem;
+  border-radius: 1.5rem;
+  border: none;
+  font-size: 1.2rem;
+  margin: 1rem 0 0 5rem;
+  transition: all 0.1s ease-in;
+}
+.card_5 .time_left_btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.card_5 .progress_bar {
+  width: 85%;
+  margin: 1rem 1.5rem 0 1.7rem;
+  height: 0.5rem;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+.card_5 .progress_digit {
+  color: #151522;
+  font-size: 1.2rem;
+  font-family: "poppins";
+  margin: 0.5rem 0 0.7rem 20rem;
+}
+.card_5 .btnsection {
+  border-top: 0.1px solid #ffffff;
+  display: flex;
+}
+.card_5 .btnsection__avatarone {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 1.5rem 1.5rem 0 1.7rem;
+}
+.card_5 .btnsection__avatartwo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 1.5rem 1rem 1rem -2.3rem;
+}
+.card_5:hover {
+  cursor: pointer;
+}
+.card_5::before {
+  content: "";
+  position: absolute;
+  background-color: purple;
+  width: 80%;
+  height: 0.3rem;
+  visibility: hidden;
+  border-radius: 2rem;
+  opacity: 0;
+  transition: all 0 ease-in-out;
+  bottom: -1.3rem;
+  transform: translate(-50%, -50%);
+  margin: 0 0 0 2rem;
+}
+.card_5::after {
+  content: "";
+  position: absolute;
+  background-color: purple;
+  visibility: hidden;
+  transition: all 0 ease-in-out;
+  margin: 0 0 0 4rem;
+  bottom: -2.3rem;
+  border-radius: 2rem;
+  width: 65%;
+  height: 0.3rem;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.card_5:hover::before,
+.card_5:hover::after {
+  opacity: 1;
+  visibility: visible;
+  cursor: pointer;
+  transform: translateY(0.2rem);
 }
 
 .card_6 {
   width: 24rem;
-  height: 22rem;
+  height: 23.5rem;
   background-color: #fde5cc;
   border-radius: 15%;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  position: relative;
+}
+.card_6 .progress_sub {
+  height: 100%;
+  background-color: orangered;
+  border-radius: 1.5rem;
+  width: 10%;
+}
+.card_6 .progress_digit {
+  color: #151522;
+  font-size: 1.2rem;
+  font-family: "poppins";
+  margin: 0.5rem 0 0.7rem 20rem;
+}
+.card_6 .card_addition_icon {
+  background-color: orangered;
+  color: #ffffff;
+  height: 1.65rem;
+  width: 1.65rem;
+  border-radius: 50%;
+  padding: 0.1rem;
+  margin: 1.5rem 0 0 -0.3rem;
+}
+.card_6 .time_left_btn {
+  background-color: orangered;
+  color: #ffffff;
+  font-family: "poppins";
+  font-weight: 700;
+  padding: 0.5rem 1.2rem;
+  border-radius: 1.5rem;
+  border: none;
+  font-size: 1.2rem;
+  margin: 1rem 0 0 5rem;
+  transition: all 0.1s ease-in;
+}
+.card_6 .time_left_btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.card_6 .progress_bar {
+  width: 85%;
+  margin: 1rem 1.5rem 0 1.7rem;
+  height: 0.5rem;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+.card_6 .progress_digit {
+  color: #151522;
+  font-size: 1.2rem;
+  font-family: "poppins";
+  margin: 0.5rem 0 0.7rem 20rem;
+}
+.card_6 .btnsection {
+  border-top: 0.1px solid #ffffff;
+  display: flex;
+}
+.card_6 .btnsection__avatarone {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 1.5rem 1.5rem 0 1.7rem;
+}
+.card_6 .btnsection__avatartwo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 1.5rem 1rem 1rem -2.3rem;
+}
+.card_6:hover {
+  cursor: pointer;
+}
+.card_6::before {
+  content: "";
+  position: absolute;
+  background-color: #fad6b0;
+  width: 80%;
+  height: 0.3rem;
+  visibility: hidden;
+  border-radius: 2rem;
+  opacity: 0;
+  transition: all 0 ease-in-out;
+  bottom: -1.3rem;
+  transform: translate(-50%, -50%);
+  margin: 0 0 0 2rem;
+}
+.card_6::after {
+  content: "";
+  position: absolute;
+  background-color: #fad6b0;
+  visibility: hidden;
+  transition: all 0 ease-in-out;
+  margin: 0 0 0 4rem;
+  bottom: -2.3rem;
+  border-radius: 2rem;
+  width: 65%;
+  height: 0.3rem;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
-.card_7 {
-  width: 24rem;
-  height: 22rem;
-  background-color: #ffd3e2;
-  border-radius: 15%;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-}
-
-.card_8 {
-  width: 24rem;
-  height: 22rem;
-  background-color: #edcdf8;
-  border-radius: 15%;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+.card_6:hover::before,
+.card_6:hover::after {
+  opacity: 1;
+  visibility: visible;
+  cursor: pointer;
+  transform: translateY(0.2rem);
 }
 
 .cards_section {
   padding-bottom: 10rem;
+}
+
+.card_heading {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #151522;
+  font-family: "poppins";
+}
+
+.card_sub_heading {
+  font-size: 1.2rem;
+  color: gray;
+  font-family: "poppins";
+  font-weight: 595;
+  text-align: center;
+}
+
+.twodoticon {
+  display: flex;
+  gap: 0.3rem;
+  flex-direction: column;
+  margin: 2rem 1rem;
+}
+.twodoticon__first {
+  background-color: #151522;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+}
+.twodoticon__second {
+  background-color: #151522;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
 }
 
 .cardflex {
@@ -243,6 +909,46 @@ html {
   justify-content: space-between;
   align-items: center;
   margin: 0.5rem;
+}
+
+.progress_txt {
+  color: #151522;
+  font-size: 1.2rem;
+  font-family: "poppins";
+  margin: 1rem 2rem -0.5rem 1.7rem;
+}
+
+.progress_bar {
+  width: 85%;
+  margin: 1rem 1.5rem 0 1.7rem;
+  height: 0.5rem;
+  background-color: rgba(128, 128, 128, 0.534);
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.progress_digit {
+  color: #151522;
+  font-size: 1.2rem;
+  font-family: "poppins";
+  margin: 0.5rem 0 0.7rem 20rem;
+}
+
+.btnsection {
+  border-top: 0.1px solid rgba(128, 128, 128, 0.63);
+  display: flex;
+}
+.btnsection__avatarone {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 1.5rem 1.5rem 0 1.7rem;
+}
+.btnsection__avatartwo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 1.5rem 1rem 1rem -2.3rem;
 }
 
 .bellsection {
