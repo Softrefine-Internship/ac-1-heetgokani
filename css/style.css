@@ -104,18 +104,6 @@ html {
   height: 100vh;
 }
 
-.smallcards__staricon2 {
-  display: none;
-}
-
-.smallcards:hover .smallcards__staricon {
-  display: none;
-}
-
-.smallcards:hover .smallcards__staricon2 {
-  display: block;
-}
-
 .cards_section {
   overflow-y: auto;
 }
