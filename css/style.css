@@ -104,6 +104,18 @@ html {
   height: 100vh;
 }
 
+.smallcards__staricon2 {
+  display: none;
+}
+
+.smallcards:hover .smallcards__staricon {
+  display: none;
+}
+
+.smallcards:hover .smallcards__staricon2 {
+  display: block;
+}
+
 .cards_section {
   overflow-y: auto;
 }
@@ -122,7 +134,7 @@ html {
 
 .Portfolio__txt {
   font-size: 3.25rem;
-  margin-left: 8rem;
+  margin-left: -2rem;
   font-family: "poppins";
   font-weight: 600;
   transition: all 0.3s ease;
@@ -862,6 +874,13 @@ html {
   text-align: center;
 }
 
+.smallcard_scr {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+  padding: 0 0 8rem 0;
+}
+
 .twodoticon {
   display: flex;
   gap: 0.3rem;
@@ -881,6 +900,18 @@ html {
   border-radius: 50%;
 }
 
+.smallcards__staricon2 {
+  display: none;
+}
+
+.smallcards:hover .smallcards__staricon {
+  display: none;
+}
+
+.smallcards:hover .smallcards__staricon2 {
+  display: block;
+}
+
 .cardflex {
   display: flex;
   justify-content: space-between;
@@ -888,14 +919,14 @@ html {
 .cardflex__date {
   color: gray;
   font-size: 1.2rem;
-  margin: 1rem 0 0 1rem;
+  margin: 0 0 0 1rem;
   font-family: "poppins";
 }
 .cardflex__icon {
   color: #151522;
   height: 1.8rem;
   width: 1.8rem;
-  margin: 1rem 1rem 0 0;
+  margin: 0 1.5rem 0 0;
 }
 
 .two_card_flex {
@@ -977,10 +1008,10 @@ html {
 
 .searchbar {
   position: relative;
-  margin-left: 3rem;
+  margin-left: 0;
 }
 .searchbar__element {
-  width: 30rem;
+  width: 35rem;
   height: 3rem;
   outline: none;
   padding: 1.8rem 3rem;
@@ -1100,6 +1131,125 @@ html {
   height: 2rem;
 }
 
+.client_icon_flex {
+  display: flex;
+}
+
+.row2 {
+  overflow-y: auto;
+  padding-bottom: 1.2rem;
+}
+.row2::-webkit-scrollbar {
+  display: none;
+}
+
+.smallcards__staricon2 {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #151522;
+}
+
+.clientmsgflex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.623);
+  margin: 3.3rem 0 0 0;
+}
+.clientmsgflex__txt {
+  font-size: 2rem;
+  color: #151522;
+  font-family: "poppins";
+  margin: 0 0 1rem 3rem;
+}
+.clientmsgflex__searchicon {
+  width: 1.8rem;
+  height: 1.8rem;
+  color: #151522;
+  margin: 0 1.9rem 1rem 0;
+}
+
+.smallcard_src {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+  padding: 0 0 8rem 0;
+}
+
+.twodoticonfooter {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  margin: 0 2.3rem 0 0;
+}
+.twodoticonfooter__first {
+  background-color: #151522;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+}
+.twodoticonfooter__second {
+  background-color: #151522;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+}
+
+.smallcards {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.623);
+  transition: all 0.3s ease-in;
+  padding: 0.5rem 0;
+}
+.smallcards:hover {
+  cursor: pointer;
+  transform: translateX(1rem) scale(1.01);
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 1.5rem;
+  margin-left: 0.5rem;
+}
+.smallcards__flex {
+  display: flex;
+}
+.smallcards__img {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  margin: 2rem 1.5rem 0 2rem;
+}
+.smallcards__iconflex {
+  margin-top: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35.2rem;
+}
+.smallcards__name {
+  font-size: 1.5rem;
+  font-family: "poppins";
+  color: #151522;
+}
+.smallcards__staricon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #151522;
+}
+.smallcards__review {
+  font-size: 1.2rem;
+  margin: 0.5rem 0 0 0;
+  color: rgba(128, 128, 128, 0.795);
+  font-family: "poppins";
+  font-weight: 500;
+}
+.smallcards__date {
+  font-size: 1.1rem;
+  font-family: "poppins";
+  font-weight: 500;
+  text-align: right;
+  margin: 0 0 1.5rem 0;
+  color: rgba(128, 128, 128, 0.562);
+}
+
 .sub_container_grid {
   display: grid;
   grid-template-columns: 8% 57% 35%;
@@ -1121,7 +1271,9 @@ html {
 .col_3 {
   height: 55rem;
   color: white;
-  overflow: auto;
+  overflow: hidden;
+  height: 100vh;
+  overflow-x: visible;
 }
 
 /*# sourceMappingURL=style.css.map */

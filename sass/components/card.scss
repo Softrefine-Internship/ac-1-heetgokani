@@ -775,6 +775,12 @@
   font-weight: 595;
   text-align: center;
 }
+.smallcard_scr {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+  padding: 0 0 8rem 0;
+}
 .twodoticon {
   display: flex;
   gap: 0.3rem;
@@ -793,20 +799,29 @@
     border-radius: 50%;
   }
 }
+.smallcards__staricon2 {
+  display: none;
+}
+.smallcards:hover .smallcards__staricon {
+  display: none;
+}
+.smallcards:hover .smallcards__staricon2 {
+  display: block;
+}
 .cardflex {
   display: flex;
   justify-content: space-between;
   &__date {
     color: $gray_color;
     font-size: 1.2rem;
-    margin: 1rem 0 0 1rem;
+    margin: 0 0 0 1rem;
     font-family: "poppins";
   }
   &__icon {
     color: $black_color;
     height: 1.8rem;
     width: 1.8rem;
-    margin: 1rem 1rem 0 0;
+    margin: 0 1.5rem 0 0;
   }
 }
 .two_card_flex {
