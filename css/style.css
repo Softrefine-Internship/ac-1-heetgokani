@@ -7,6 +7,11 @@
 html {
   font-size: 62.5%;
 }
+@media (min-width: 125em) {
+  html {
+    font-size: 110%;
+  }
+}
 
 .three_big_line_icon {
   width: 5rem;
@@ -27,7 +32,6 @@ html {
   background-color: #151522;
   padding: 0.4rem;
   border-radius: 50%;
-  margin-left: 32rem;
   transition: all 0.3s ease;
   cursor: pointer;
 }
@@ -64,7 +68,7 @@ html {
 .icon__flex .three_small_line {
   width: 2rem;
   height: 2rem;
-  color: #151522;
+  color: #b4f1ce;
 }
 
 .main__container {
@@ -122,7 +126,8 @@ html {
 
 .Portfolio__txt {
   font-size: 3.25rem;
-  margin-left: -2.5rem;
+  margin-left: 7rem;
+  margin-right: 4rem;
   font-family: "poppins";
   font-weight: 600;
   transition: all 0.3s ease;
@@ -147,25 +152,73 @@ html {
   cursor: pointer;
 }
 
+.time_left_button {
+  background-color: rgba(47, 217, 247, 0.295);
+  color: rgb(0, 183, 255);
+  font-family: "poppins";
+  font-weight: 700;
+  padding: 0.5rem 1.2rem;
+  border-radius: 1.5rem;
+  border: none;
+  font-size: 1.2rem;
+  margin: 1rem 2rem 0 0;
+  transition: all 0.1s ease-in;
+}
+.time_left_button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.time_left_button2,
+.time_left_button3,
+.time_left_button4,
+.time_left_button5,
+.time_left_button6 {
+  margin: 1rem 2rem 0 0;
+  background-color: #ffffff;
+  font-family: "poppins";
+  font-weight: 700;
+  padding: 0.5rem 1.2rem;
+  border-radius: 1.5rem;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.time_left_button2,
+.time_left_button6 {
+  color: orangered;
+}
+
+.time_left_button3 {
+  color: green;
+}
+
+.time_left_button4 {
+  color: rgb(218, 129, 159);
+}
+
+.time_left_button5 {
+  color: purple;
+}
+
 .card_1 {
   width: 24rem;
-  height: 23.5rem;
+  height: 23.7rem;
   background-color: #ffffff;
   border-radius: 15%;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
   position: relative;
+}
+@media (min-width: 125em) {
+  .card_1 {
+    width: 30rem;
+  }
 }
 .card_1 .progress_sub {
   height: 100%;
   background-color: rgba(0, 183, 255, 0.829);
   border-radius: 1.5rem;
   width: 90%;
-}
-.card_1 .progress_num {
-  color: #151522;
-  font-size: 1.2rem;
-  font-family: "poppins";
-  margin: 0.5rem 0 0.7rem 19rem;
 }
 .card_1 .card_addition_icon {
   background-color: rgb(0, 183, 255);
@@ -200,11 +253,11 @@ html {
   border-radius: 1.5rem;
   overflow: hidden;
 }
-.card_1 .progress_num {
+.card_1 .progress_digit {
   color: #151522;
   font-size: 1.2rem;
   font-family: "poppins";
-  margin: 0.5rem 0 0.7rem 19.5rem;
+  text-align: right;
 }
 .card_1 .btnsection {
   border-top: 0.1px solid rgba(128, 128, 128, 0.63);
@@ -265,23 +318,22 @@ html {
 
 .card_2 {
   width: 24rem;
-  height: 23.5rem;
+  height: 23.7rem;
   background-color: #fde5cc;
   border-radius: 15%;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
   position: relative;
+}
+@media (min-width: 125em) {
+  .card_2 {
+    width: 30rem;
+  }
 }
 .card_2 .progress_sub {
   height: 100%;
   background-color: orangered;
   border-radius: 1.5rem;
   width: 40%;
-}
-.card_2 .progress_num {
-  color: #151522;
-  font-size: 1.2rem;
-  font-family: "poppins";
-  margin: 0.5rem 0 0.7rem 19.5rem;
 }
 .card_2 .card_addition_icon {
   background-color: orangered;
@@ -301,7 +353,7 @@ html {
   border-radius: 1.5rem;
   border: none;
   font-size: 1.2rem;
-  margin: 1rem 0 0 5rem;
+  margin: 0 0 0 0;
   transition: all 0.1s ease-in;
 }
 .card_2 .time_left_btn:hover {
@@ -316,15 +368,17 @@ html {
   border-radius: 1.5rem;
   overflow: hidden;
 }
-.card_2 .progress_num {
+.card_2 .progress_digit {
   color: #151522;
   font-size: 1.2rem;
   font-family: "poppins";
-  margin: 0.5rem 0 0.7rem 19.5rem;
+  margin: 0.5rem 0 0.7rem 20rem;
 }
 .card_2 .btnsection {
   border-top: 0.1px solid #ffffff;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .card_2 .btnsection__avatarone {
   width: 2rem;
@@ -381,11 +435,16 @@ html {
 
 .card_3 {
   width: 24rem;
-  height: 23.5rem;
+  height: 23.7rem;
   background-color: #b4f1ce;
   border-radius: 15%;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
   position: relative;
+}
+@media (min-width: 125em) {
+  .card_3 {
+    width: 30rem;
+  }
 }
 .card_3 .progress_sub {
   height: 100%;
@@ -393,11 +452,11 @@ html {
   border-radius: 1.5rem;
   width: 50%;
 }
-.card_3 .progress_num {
+.card_3 .progress_digit {
   color: #151522;
   font-size: 1.2rem;
   font-family: "poppins";
-  margin: 0.5rem 0 0.7rem 19.5rem;
+  margin: 0.5rem 0 0.7rem 20rem;
 }
 .card_3 .card_addition_icon {
   background-color: green;
@@ -405,8 +464,6 @@ html {
   height: 1.65rem;
   width: 1.65rem;
   border-radius: 50%;
-  padding: 0.1rem;
-  margin: 1.5rem 0 0 -0.3rem;
 }
 .card_3 .time_left_btn {
   background-color: #ffffff;
@@ -417,7 +474,6 @@ html {
   border-radius: 1.5rem;
   border: none;
   font-size: 1.2rem;
-  margin: 1rem 0 0 5rem;
   transition: all 0.1s ease-in;
 }
 .card_3 .time_left_btn:hover {
@@ -432,27 +488,28 @@ html {
   border-radius: 1.5rem;
   overflow: hidden;
 }
-.card_3 .progress_num {
+.card_3 .progress_digit {
   color: #151522;
   font-size: 1.2rem;
   font-family: "poppins";
-  margin: 0.5rem 0 0.7rem 19.5rem;
+  margin: 0.5rem 0 0.7rem 20rem;
 }
 .card_3 .btnsection {
   border-top: 0.1px solid #ffffff;
   display: flex;
+  justify-content: space-between;
+  margin: 0 1rem 0 1rem;
 }
 .card_3 .btnsection__avatarone {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  margin: 1.5rem 1.5rem 0 1.7rem;
 }
 .card_3 .btnsection__avatartwo {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  margin: 1.5rem 1rem 1rem -2.3rem;
+  margin: 0 0 0 -2.3rem;
 }
 .card_3:hover {
   cursor: pointer;
@@ -497,11 +554,16 @@ html {
 
 .card_4 {
   width: 24rem;
-  height: 23.5rem;
+  height: 23.7rem;
   background-color: #ffd3e2;
   border-radius: 15%;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
   position: relative;
+}
+@media (min-width: 125em) {
+  .card_4 {
+    width: 30rem;
+  }
 }
 .card_4 .progress_sub {
   height: 100%;
@@ -509,11 +571,11 @@ html {
   border-radius: 1.5rem;
   width: 20%;
 }
-.card_4 .progress_num {
+.card_4 .progress_digit {
   color: #151522;
   font-size: 1.2rem;
   font-family: "poppins";
-  margin: 0.5rem 0 0.7rem 19.5rem;
+  margin: 0.5rem 0 0.7rem 20rem;
 }
 .card_4 .card_addition_icon {
   background-color: rgb(218, 129, 159);
@@ -548,11 +610,11 @@ html {
   border-radius: 1.5rem;
   overflow: hidden;
 }
-.card_4 .progress_num {
+.card_4 .progress_digit {
   color: #151522;
   font-size: 1.2rem;
   font-family: "poppins";
-  margin: 0.5rem 0 0.7rem 19.5rem;
+  margin: 0.5rem 0 0.7rem 20rem;
 }
 .card_4 .btnsection {
   border-top: 0.1px solid #ffffff;
@@ -613,11 +675,16 @@ html {
 
 .card_5 {
   width: 24rem;
-  height: 23.5rem;
+  height: 23.7rem;
   background-color: #edcdf8;
   border-radius: 15%;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
   position: relative;
+}
+@media (min-width: 125em) {
+  .card_5 {
+    width: 30rem;
+  }
 }
 .card_5 .progress_sub {
   height: 100%;
@@ -625,11 +692,11 @@ html {
   border-radius: 1.5rem;
   width: 70%;
 }
-.card_5 .progress_num {
+.card_5 .progress_digit {
   color: #151522;
   font-size: 1.2rem;
   font-family: "poppins";
-  margin: 0.5rem 0 0.7rem 19.5rem;
+  margin: 0.5rem 0 0.7rem 20rem;
 }
 .card_5 .card_addition_icon {
   background-color: purple;
@@ -664,11 +731,11 @@ html {
   border-radius: 1.5rem;
   overflow: hidden;
 }
-.card_5 .progress_num {
+.card_5 .progress_digit {
   color: #151522;
   font-size: 1.2rem;
   font-family: "poppins";
-  margin: 0.5rem 0 0.7rem 19.5rem;
+  margin: 0.5rem 0 0.7rem 20rem;
 }
 .card_5 .btnsection {
   border-top: 0.1px solid #ffffff;
@@ -729,11 +796,16 @@ html {
 
 .card_6 {
   width: 24rem;
-  height: 23.5rem;
+  height: 23.7rem;
   background-color: #fde5cc;
   border-radius: 15%;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
   position: relative;
+}
+@media (min-width: 125em) {
+  .card_6 {
+    width: 30rem;
+  }
 }
 .card_6 .progress_sub {
   height: 100%;
@@ -741,11 +813,11 @@ html {
   border-radius: 1.5rem;
   width: 10%;
 }
-.card_6 .progress_num {
+.card_6 .progress_digit {
   color: #151522;
   font-size: 1.2rem;
   font-family: "poppins";
-  margin: 0.5rem 0 0.7rem 19.5rem;
+  margin: 0.5rem 0 0.7rem 20rem;
 }
 .card_6 .card_addition_icon {
   background-color: orangered;
@@ -844,7 +916,7 @@ html {
 }
 
 .cards_section {
-  padding-bottom: 10rem;
+  padding-bottom: 12rem;
 }
 
 .card_heading {
@@ -919,8 +991,9 @@ html {
 
 .two_card_flex {
   display: flex;
-  margin: 5rem 2rem 4rem 10rem;
-  gap: 8rem;
+  margin: 5rem 4rem 0 6rem;
+  align-items: center;
+  gap: 10rem;
 }
 
 .cardinfo_flex {
@@ -968,6 +1041,84 @@ html {
   height: 2rem;
   border-radius: 50%;
   margin: 1.5rem 1rem 1rem -2.3rem;
+}
+
+.flex_title {
+  display: flex;
+  align-items: center;
+}
+
+.submit_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0rem 0 0 0;
+  border-top: 0.1px solid rgba(128, 128, 128, 0.63);
+}
+
+.btnsection__img1 {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 0 0 0 1rem;
+}
+
+.btnsection__img2 {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 0 0 0 -0.5rem;
+}
+
+.image_flex {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 0 0;
+}
+
+.progress_status {
+  color: #151522;
+  font-size: 1.2rem;
+  font-family: "poppins";
+  text-align: right;
+  margin: 1rem 1.7rem 1rem 0;
+}
+
+.addition_icons,
+.addition_icons2,
+.addition_icons3,
+.addition_icons4,
+.addition_icons5,
+.addition_icons6 {
+  background-color: rgb(0, 183, 255);
+  color: #ffffff;
+  height: 1.65rem;
+  width: 1.65rem;
+  border-radius: 50%;
+  padding: 0.1rem;
+  margin: 0 0 0 1rem;
+}
+
+.addition_icons2 {
+  background-color: orangered;
+  color: #ffffff;
+}
+
+.addition_icons3 {
+  color: #ffffff;
+  background-color: green;
+}
+
+.addition_icons4 {
+  background-color: rgb(218, 129, 159);
+}
+
+.addition_icons5 {
+  background-color: purple;
+}
+
+.addition_icons6 {
+  background-color: orangered;
 }
 
 .bellsection {
@@ -1030,6 +1181,7 @@ html {
   display: flex;
   justify-content: space-between;
   margin: 4rem 4rem;
+  width: 100%;
 }
 .bodysection__heading {
   font-size: 2.5rem;
@@ -1046,6 +1198,7 @@ html {
   color: #151522;
   font-family: "poppins";
   transition: all 0.3s ease;
+  margin-right: 7rem;
 }
 .bodysection__date:hover {
   transform: rotate(15deg);
@@ -1077,6 +1230,9 @@ html {
 
 .in_projects_section {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 3rem;
 }
 
 .icons {
@@ -1087,7 +1243,7 @@ html {
   color: #151522;
   width: 2.4rem;
   height: 2.5rem;
-  margin: 0 2rem 0 22rem;
+  margin: 0 2rem 0 0;
   transition: all 0.58s ease;
 }
 .icons__fourline:hover {
@@ -1107,14 +1263,14 @@ html {
 
 .three_small_line {
   color: #151522;
-  margin: 0 0 0 10rem;
+  margin: 0 0 0 0rem;
   width: 2rem;
   height: 2rem;
 }
 
 .square_icon {
   color: #151522;
-  margin: 0 22rem 0 0;
+  margin: 0 0 0 0;
   width: 2rem;
   height: 2rem;
 }
@@ -1129,6 +1285,11 @@ html {
 }
 .row2::-webkit-scrollbar {
   display: none;
+}
+
+.image_flex {
+  display: flex;
+  align-items: center;
 }
 
 .smallcards__staricon2 {
@@ -1157,11 +1318,16 @@ html {
   margin: 0 1.9rem 1rem 0;
 }
 
+.in_projects_section_flex {
+  display: flex;
+  align-items: center;
+}
+
 .smallcard_src {
   display: grid;
   grid-template-rows: auto 1fr;
   height: 100vh;
-  padding: 0 0 8rem 0;
+  padding: 0 0 0 0;
 }
 
 .twodoticonfooter {
@@ -1187,6 +1353,20 @@ html {
   border-bottom: 1px solid rgba(128, 128, 128, 0.623);
   transition: all 0.3s ease-in;
   padding: 0.5rem 0;
+  width: 100vw;
+}
+@media (min-width: 100em) and (max-width: 124em) {
+  .smallcards {
+    margin-right: 1rem;
+    width: 100%;
+    font-size: 70%;
+  }
+}
+@media (min-width: 125em) and (max-width: 143em) {
+  .smallcards {
+    margin-right: 1rem;
+    width: 100%;
+  }
 }
 .smallcards:hover {
   cursor: pointer;
@@ -1211,6 +1391,11 @@ html {
   align-items: center;
   justify-content: space-between;
   width: 35.2rem;
+}
+@media (min-width: 125em) and (max-width: 143em) {
+  .smallcards__iconflex {
+    width: 30rem;
+  }
 }
 .smallcards__name {
   font-size: 1.5rem;
@@ -1249,7 +1434,7 @@ html {
 }
 
 .col_2 {
-  height: 55rem;
+  height: 100vh;
   color: white;
   background-color: #ffffff;
   border-radius: 7%;

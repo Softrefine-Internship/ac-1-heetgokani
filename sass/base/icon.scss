@@ -8,6 +8,7 @@
   transform: rotate(360deg);
   cursor: pointer;
 }
+
 .addition_icon {
   height: 2rem;
   width: 2rem;
@@ -15,7 +16,7 @@
   background-color: $black_color;
   padding: 0.4rem;
   border-radius: 50%;
-  margin-left: 32rem;
+
   transition: all 0.3s ease;
   cursor: pointer;
 }
@@ -49,6 +50,6 @@
   .three_small_line {
     width: 2rem;
     height: 2rem;
-    color: $black_color;
+    color: $green_color;
   }
 }

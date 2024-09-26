@@ -1,0 +1,46 @@
+.time_left_button {
+  background-color: rgba(47, 217, 247, 0.295);
+  color: rgb(0, 183, 255);
+  font-family: "poppins";
+  font-weight: 700;
+  padding: 0.5rem 1.2rem;
+  border-radius: 1.5rem;
+  border: none;
+  font-size: 1.2rem;
+  margin: 1rem 2rem 0 0;
+
+  transition: all 0.1s ease-in;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}
+
+.time_left_button2,
+.time_left_button3,
+.time_left_button4,
+.time_left_button5,
+.time_left_button6 {
+  margin: 1rem 2rem 0 0;
+  background-color: $white_color;
+  font-family: "poppins";
+  font-weight: 700;
+  padding: 0.5rem 1.2rem;
+  border-radius: 1.5rem;
+  border: none;
+  font-size: 1.2rem;
+}
+.time_left_button2,
+.time_left_button6 {
+  color: orangered;
+}
+.time_left_button3 {
+  color: green;
+}
+
+.time_left_button4 {
+  color: rgb(218, 129, 159);
+}
+.time_left_button5 {
+  color: purple;
+}

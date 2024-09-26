@@ -33,24 +33,26 @@
         <!-- This is sub container where all content is present -->
 
         <div class="header__flex">
-          <ion-icon
-            class="three_big_line_icon"
-            name="reorder-three-outline"
-          ></ion-icon>
-          <h1 class="Portfolio__txt">Portfolio</h1>
-          <div class="searchbar">
-            <input
-              class="searchbar__element"
-              type="search"
-              placeholder="Search"
-            />
-            <span
-              ><ion-icon
-                class="searchbar__icon"
-                name="search-outline"
-              ></ion-icon
-            ></span>
-          </div>
+          <section class="flex_title">
+            <ion-icon
+              class="three_big_line_icon"
+              name="reorder-three-outline"
+            ></ion-icon>
+            <h1 class="Portfolio__txt">Portfolio</h1>
+            <div class="searchbar">
+              <input
+                class="searchbar__element"
+                type="search"
+                placeholder="Search"
+              />
+              <span
+                ><ion-icon
+                  class="searchbar__icon"
+                  name="search-outline"
+                ></ion-icon
+              ></span>
+            </div>
+          </section>
           <section class="profile_class">
             <ion-icon class="addition_icon" name="add-outline"></ion-icon>
             <div class="bellsection">
@@ -108,58 +110,60 @@
                   <h1 class="bodysection__date">July,2020</h1>
                 </section>
                 <article class="in_projects_section">
-                  <!-- Box 1 -->
-                  <div class="boxes">
-                    <div>
-                      <h1 class="boxes__number">45</h1>
-                      <h1 class="boxes__heading">
-                        In progress
-                        <span
-                          ><ion-icon
-                            class="boxes__icon"
-                            name="radio-button-off-outline"
-                          ></ion-icon
-                        ></span>
-                      </h1>
+                  <main class="in_projects_section_flex">
+                    <!-- Box 1 -->
+                    <div class="boxes">
+                      <div>
+                        <h1 class="boxes__number">45</h1>
+                        <h1 class="boxes__heading">
+                          In progress
+                          <span
+                            ><ion-icon
+                              class="boxes__icon"
+                              name="radio-button-off-outline"
+                            ></ion-icon
+                          ></span>
+                        </h1>
+                      </div>
                     </div>
-                  </div>
-                  <!-- Box 2 -->
-                  <div class="boxes">
-                    <div>
-                      <h1 class="boxes__number">12</h1>
-                      <h1 class="boxes__heading">
-                        In progress
-                        <span
-                          ><ion-icon
-                            class="boxes__icon"
-                            name="radio-button-off-outline"
-                          ></ion-icon
-                        ></span>
-                      </h1>
+                    <!-- Box 2 -->
+                    <div class="boxes">
+                      <div>
+                        <h1 class="boxes__number">12</h1>
+                        <h1 class="boxes__heading">
+                          In progress
+                          <span
+                            ><ion-icon
+                              class="boxes__icon"
+                              name="radio-button-off-outline"
+                            ></ion-icon
+                          ></span>
+                        </h1>
+                      </div>
                     </div>
-                  </div>
-                  <!-- Box 3 -->
-                  <div class="boxes">
-                    <div>
-                      <h1 class="boxes__number">10</h1>
-                      <h1 class="boxes__heading">
-                        Upcoming
-                        <span
-                          ><ion-icon
-                            class="boxes__icon"
-                            name="radio-button-off-outline"
-                          ></ion-icon
-                        ></span>
-                      </h1>
+                    <!-- Box 3 -->
+                    <div class="boxes">
+                      <div>
+                        <h1 class="boxes__number">10</h1>
+                        <h1 class="boxes__heading">
+                          Upcoming
+                          <span
+                            ><ion-icon
+                              class="boxes__icon"
+                              name="radio-button-off-outline"
+                            ></ion-icon
+                          ></span>
+                        </h1>
+                      </div>
                     </div>
-                  </div>
-                  <!-- Box 4 -->
-                  <div class="boxes">
-                    <div>
-                      <h1 class="boxes__number">67</h1>
-                      <h1 class="boxes__heading">Total Project</h1>
+                    <!-- Box 4 -->
+                    <div class="boxes">
+                      <div>
+                        <h1 class="boxes__number">67</h1>
+                        <h1 class="boxes__heading">Total Project</h1>
+                      </div>
                     </div>
-                  </div>
+                  </main>
                   <div class="icons">
                     <ion-icon
                       class="icons__fourline"
@@ -188,23 +192,26 @@
                     <div class="progress_bar">
                       <div class="progress_sub"></div>
                     </div>
-                    <h1 class="progress_num">90%</h1>
-                    <div class="btnsection">
-                      <img
-                        class="btnsection__avatarone"
-                        src="images/many_faces_4.jpg"
-                        alt="avatar image"
-                      />
-                      <img
-                        class="btnsection__avatartwo"
-                        src="images/many_faces_5.jpg"
-                        alt="avatar image"
-                      />
-                      <ion-icon
-                        class="card_addition_icon"
-                        name="add-outline"
-                      ></ion-icon>
-                      <button class="time_left_btn">2 Days Left</button>
+                    <h1 class="progress_status">90%</h1>
+                    <div class="submit_flex">
+                      <section class="image_flex">
+                        <img
+                          class="btnsection__img1"
+                          src="images/many_faces_4.jpg"
+                          alt="avatar image"
+                        />
+                        <img
+                          class="btnsection__img2"
+                          src="images/many_faces_5.jpg"
+                          alt="avatar image"
+                        />
+                        <ion-icon
+                          class="addition_icons"
+                          name="add-outline"
+                        ></ion-icon>
+                      </section>
+
+                      <button class="time_left_button">2 Days Left</button>
                     </div>
                   </div>
                   <div class="card_2">
@@ -221,23 +228,26 @@
                     <div class="progress_bar">
                       <div class="progress_sub"></div>
                     </div>
-                    <h1 class="progress_num">30%</h1>
-                    <div class="btnsection">
-                      <img
-                        class="btnsection__avatarone"
-                        src="images/many_faces_2.jpg"
-                        alt="avatar image"
-                      />
-                      <img
-                        class="btnsection__avatartwo"
-                        src="images/many_faces_7.jpg"
-                        alt="avatar image"
-                      />
-                      <ion-icon
-                        class="card_addition_icon"
-                        name="add-outline"
-                      ></ion-icon>
-                      <button class="time_left_btn">3 week Left</button>
+                    <h1 class="progress_status">30%</h1>
+                    <div class="submit_flex">
+                      <section class="image_flex">
+                        <img
+                          class="btnsection__img1"
+                          src="images/many_faces_5.jpg"
+                          alt="avatar image"
+                        />
+                        <img
+                          class="btnsection__img2"
+                          src="images/many_faces_3.jpg"
+                          alt="avatar image"
+                        />
+                        <ion-icon
+                          class="addition_icons2"
+                          name="add-outline"
+                        ></ion-icon>
+                      </section>
+
+                      <button class="time_left_button2">3 week Left</button>
                     </div>
                   </div>
                 </div>
@@ -257,23 +267,26 @@
                     <div class="progress_bar">
                       <div class="progress_sub"></div>
                     </div>
-                    <h1 class="progress_num">50%</h1>
-                    <div class="btnsection">
-                      <img
-                        class="btnsection__avatarone"
-                        src="images/many_faces_1.jpg"
-                        alt="avatar image"
-                      />
-                      <img
-                        class="btnsection__avatartwo"
-                        src="images/many_faces_10.jpg"
-                        alt="avatar image"
-                      />
-                      <ion-icon
-                        class="card_addition_icon"
-                        name="add-outline"
-                      ></ion-icon>
-                      <button class="time_left_btn">2 week Left</button>
+                    <h1 class="progress_status">50%</h1>
+                    <div class="submit_flex">
+                      <section class="image_flex">
+                        <img
+                          class="btnsection__img1"
+                          src="images/many_faces_5.jpg"
+                          alt="avatar image"
+                        />
+                        <img
+                          class="btnsection__img2"
+                          src="images/many_faces_7.jpg"
+                          alt="avatar image"
+                        />
+                        <ion-icon
+                          class="addition_icons3"
+                          name="add-outline"
+                        ></ion-icon>
+                      </section>
+
+                      <button class="time_left_button3">2 week Left</button>
                     </div>
                   </div>
                   <div class="card_4">
@@ -290,23 +303,26 @@
                     <div class="progress_bar">
                       <div class="progress_sub"></div>
                     </div>
-                    <h1 class="progress_num">20%</h1>
-                    <div class="btnsection">
-                      <img
-                        class="btnsection__avatarone"
-                        src="images/many_faces_4.jpg"
-                        alt="avatar image"
-                      />
-                      <img
-                        class="btnsection__avatartwo"
-                        src="images/many_faces_6.jpg"
-                        alt="avatar image"
-                      />
-                      <ion-icon
-                        class="card_addition_icon"
-                        name="add-outline"
-                      ></ion-icon>
-                      <button class="time_left_btn">3 Week Left</button>
+                    <h1 class="progress_status">20%</h1>
+                    <div class="submit_flex">
+                      <section class="image_flex">
+                        <img
+                          class="btnsection__img1"
+                          src="images/many_faces_10.jpg"
+                          alt="avatar image"
+                        />
+                        <img
+                          class="btnsection__img2"
+                          src="images/many_faces_1.jpg"
+                          alt="avatar image"
+                        />
+                        <ion-icon
+                          class="addition_icons4"
+                          name="add-outline"
+                        ></ion-icon>
+                      </section>
+
+                      <button class="time_left_button4">3 week Left</button>
                     </div>
                   </div>
                 </div>
@@ -326,23 +342,26 @@
                     <div class="progress_bar">
                       <div class="progress_sub"></div>
                     </div>
-                    <h1 class="progress_num">70%</h1>
-                    <div class="btnsection">
-                      <img
-                        class="btnsection__avatarone"
-                        src="images/many_faces_2.jpg"
-                        alt="avatar image"
-                      />
-                      <img
-                        class="btnsection__avatartwo"
-                        src="images/many_faces_8.jpg"
-                        alt="avatar image"
-                      />
-                      <ion-icon
-                        class="card_addition_icon"
-                        name="add-outline"
-                      ></ion-icon>
-                      <button class="time_left_btn">4 week Left</button>
+                    <h1 class="progress_status">70%</h1>
+                    <div class="submit_flex">
+                      <section class="image_flex">
+                        <img
+                          class="btnsection__img1"
+                          src="images/many_faces_4.jpg"
+                          alt="avatar image"
+                        />
+                        <img
+                          class="btnsection__img2"
+                          src="images/many_faces_11.jpg"
+                          alt="avatar image"
+                        />
+                        <ion-icon
+                          class="addition_icons5"
+                          name="add-outline"
+                        ></ion-icon>
+                      </section>
+
+                      <button class="time_left_button5">2 Days Left</button>
                     </div>
                   </div>
                   <div class="card_6">
@@ -359,23 +378,26 @@
                     <div class="progress_bar">
                       <div class="progress_sub"></div>
                     </div>
-                    <h1 class="progress_num">10%</h1>
-                    <div class="btnsection">
-                      <img
-                        class="btnsection__avatarone"
-                        src="images/many_faces_4.jpg"
-                        alt="avatar image"
-                      />
-                      <img
-                        class="btnsection__avatartwo"
-                        src="images/many_faces_5.jpg"
-                        alt="avatar image"
-                      />
-                      <ion-icon
-                        class="card_addition_icon"
-                        name="add-outline"
-                      ></ion-icon>
-                      <button class="time_left_btn">2 Days Left</button>
+                    <h1 class="progress_status">10%</h1>
+                    <div class="submit_flex">
+                      <section class="image_flex">
+                        <img
+                          class="btnsection__img1"
+                          src="images/many_faces_1.jpg"
+                          alt="avatar image"
+                        />
+                        <img
+                          class="btnsection__img2"
+                          src="images/many_faces_2.jpg"
+                          alt="avatar image"
+                        />
+                        <ion-icon
+                          class="addition_icons6"
+                          name="add-outline"
+                        ></ion-icon>
+                      </section>
+
+                      <button class="time_left_button6">1 week Left</button>
                     </div>
                   </div>
                 </div>
@@ -424,7 +446,7 @@
                       </div>
                       <h1 class="smallcards__review">
                         Hey tell me about progress of project ? Waiting<br />
-                        for your response.
+                        for your response
                       </h1>
                       <h1 class="smallcards__date">21 July</h1>
                     </div>

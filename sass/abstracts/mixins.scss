@@ -1,0 +1,22 @@
+@mixin responsive($break_points) {
+  @if $break_points == mobile {
+    @media (max-width: 37.5em) {
+      @content;
+    }
+  }
+  @if $break_points == tablet {
+    @media (min-width: 75em) and (max-width: 123em) {
+      @content;
+    }
+  }
+  @if $break_points == small_laptop {
+    @media (min-width: 100em) and (max-width: 124em) {
+      @content;
+    }
+  }
+  @if $break_points == large_display {
+    @media (min-width: 125em) {
+      @content;
+    }
+  }
+}
