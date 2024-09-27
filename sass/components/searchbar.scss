@@ -10,6 +10,9 @@
     padding: 1.8rem 3rem;
     border-radius: 5rem;
     border: none;
+    @media (min-width: 8em) and (max-width: 25em) {
+      font-size: 2rem;
+    }
   }
 
   &__icon {

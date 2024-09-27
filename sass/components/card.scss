@@ -9,12 +9,32 @@
   @include responsive(mobile) {
   }
   @include responsive(tablet) {
+    width: 28rem;
   }
   @include responsive(small_laptop) {
+    width: 35rem;
   }
   @include responsive(large_display) {
     width: 30rem;
   }
+  @media (min-width: 87em) and (max-width: 99em) {
+    width: 35rem;
+  }
+  @media (min-width: 62em) and (max-width: 68em) {
+    width: 30rem;
+  }
+  @media (min-width: 40em) and (max-width: 47em) {
+    width: 45rem;
+  }
+  // @media (min-width: 43em) and (max-width: 62em) {
+  //   width: 30rem;
+  // }
+  // @media (min-width: 34em) and (max-width: 43em) {
+  //   width: 70rem;
+  // }
+  // @media (min-width: 37em) and (max-width: 45em) {
+  //   width: 90rem;
+  // }
 
   .progress_sub {
     height: 100%;
@@ -64,6 +84,9 @@
     font-size: 1.2rem;
     font-family: "poppins";
     text-align: right;
+    @media (min-width: 33em) and (max-width: 42em) {
+      text-align: center;
+    }
   }
 
   .btnsection {
@@ -100,6 +123,9 @@
     bottom: -1.3rem;
     transform: translate(-50%, -50%);
     margin: 0 0 0 2rem;
+    @media (min-width: 34em) and (max-width: 43em) {
+      margin: 0 0 0 5rem;
+    }
   }
 
   &::after {
@@ -116,6 +142,9 @@
     opacity: 0;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    @media (min-width: 34em) and (max-width: 43em) {
+      margin: 0 0 0 10rem;
+    }
   }
 }
 
@@ -138,13 +167,23 @@
   @include responsive(mobile) {
   }
   @include responsive(tablet) {
+    width: 28rem;
   }
   @include responsive(small_laptop) {
+    width: 35rem;
   }
   @include responsive(large_display) {
     width: 30rem;
   }
-
+  @media (min-width: 87em) and (max-width: 99em) {
+    width: 35rem;
+  }
+  @media (min-width: 62em) and (max-width: 68em) {
+    width: 30rem;
+  }
+  @media (min-width: 40em) and (max-width: 47em) {
+    width: 45rem;
+  }
   .progress_sub {
     height: 100%;
     background-color: orangered;
@@ -231,6 +270,9 @@
     bottom: -1.3rem;
     transform: translate(-50%, -50%);
     margin: 0 0 0 2rem;
+    @media (min-width: 34em) and (max-width: 43em) {
+      margin: 0 0 0 5rem;
+    }
   }
 
   &::after {
@@ -247,6 +289,9 @@
     opacity: 0;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    @media (min-width: 34em) and (max-width: 43em) {
+      margin: 0 0 0 10rem;
+    }
   }
 }
 
@@ -269,14 +314,23 @@
   @include responsive(mobile) {
   }
   @include responsive(tablet) {
+    width: 28rem;
   }
   @include responsive(small_laptop) {
+    width: 35rem;
   }
-
   @include responsive(large_display) {
     width: 30rem;
   }
-
+  @media (min-width: 87em) and (max-width: 99em) {
+    width: 35rem;
+  }
+  @media (min-width: 62em) and (max-width: 68em) {
+    width: 30rem;
+  }
+  @media (min-width: 40em) and (max-width: 47em) {
+    width: 45rem;
+  }
   .progress_sub {
     height: 100%;
     background-color: green;
@@ -367,6 +421,9 @@
     bottom: -1.3rem;
     transform: translate(-50%, -50%);
     margin: 0 0 0 2rem;
+    @media (min-width: 34em) and (max-width: 43em) {
+      margin: 0 0 0 5rem;
+    }
   }
 
   &::after {
@@ -383,6 +440,9 @@
     opacity: 0;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    @media (min-width: 34em) and (max-width: 43em) {
+      margin: 0 0 0 10rem;
+    }
   }
 }
 
@@ -405,13 +465,23 @@
   @include responsive(mobile) {
   }
   @include responsive(tablet) {
+    width: 28rem;
   }
   @include responsive(small_laptop) {
+    width: 35rem;
   }
   @include responsive(large_display) {
     width: 30rem;
   }
-
+  @media (min-width: 87em) and (max-width: 99em) {
+    width: 35rem;
+  }
+  @media (min-width: 62em) and (max-width: 68em) {
+    width: 30rem;
+  }
+  @media (min-width: 40em) and (max-width: 47em) {
+    width: 45rem;
+  }
   .progress_sub {
     height: 100%;
     background-color: rgb(218, 129, 159);
@@ -503,6 +573,9 @@
     bottom: -1.3rem;
     transform: translate(-50%, -50%);
     margin: 0 0 0 2rem;
+    @media (min-width: 34em) and (max-width: 43em) {
+      margin: 0 0 0 5rem;
+    }
   }
 
   &::after {
@@ -519,6 +592,9 @@
     opacity: 0;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    @media (min-width: 34em) and (max-width: 43em) {
+      margin: 0 0 0 10rem;
+    }
   }
 }
 
@@ -541,11 +617,22 @@
   @include responsive(mobile) {
   }
   @include responsive(tablet) {
+    width: 28rem;
   }
   @include responsive(small_laptop) {
+    width: 35rem;
   }
   @include responsive(large_display) {
     width: 30rem;
+  }
+  @media (min-width: 87em) and (max-width: 99em) {
+    width: 35rem;
+  }
+  @media (min-width: 62em) and (max-width: 68em) {
+    width: 30rem;
+  }
+  @media (min-width: 40em) and (max-width: 47em) {
+    width: 45rem;
   }
   .progress_sub {
     height: 100%;
@@ -638,6 +725,9 @@
     bottom: -1.3rem;
     transform: translate(-50%, -50%);
     margin: 0 0 0 2rem;
+    @media (min-width: 34em) and (max-width: 43em) {
+      margin: 0 0 0 5rem;
+    }
   }
 
   &::after {
@@ -654,6 +744,9 @@
     opacity: 0;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    @media (min-width: 34em) and (max-width: 43em) {
+      margin: 0 0 0 10rem;
+    }
   }
 }
 
@@ -675,13 +768,23 @@
   @include responsive(mobile) {
   }
   @include responsive(tablet) {
+    width: 28rem;
   }
   @include responsive(small_laptop) {
+    width: 35rem;
   }
   @include responsive(large_display) {
     width: 30rem;
   }
-
+  @media (min-width: 87em) and (max-width: 99em) {
+    width: 35rem;
+  }
+  @media (min-width: 62em) and (max-width: 68em) {
+    width: 30rem;
+  }
+  @media (min-width: 40em) and (max-width: 47em) {
+    width: 45rem;
+  }
   .progress_sub {
     height: 100%;
     background-color: orangered;
@@ -773,6 +876,9 @@
     bottom: -1.3rem;
     transform: translate(-50%, -50%);
     margin: 0 0 0 2rem;
+    @media (min-width: 34em) and (max-width: 43em) {
+      margin: 0 0 0 5rem;
+    }
   }
 
   &::after {
@@ -789,6 +895,9 @@
     opacity: 0;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    @media (min-width: 34em) and (max-width: 43em) {
+      margin: 0 0 0 10rem;
+    }
   }
 }
 
@@ -802,6 +911,15 @@
 
 .cards_section {
   padding-bottom: 12rem;
+  @media (min-width: 0em) and (max-width: 61em) {
+    flex-direction: column;
+  }
+  @media (min-width: 34em) and (max-width: 43em) {
+    margin: 0 0 0 5rem;
+  }
+  @media (min-width: 16em) and (max-width: 23em) {
+    padding-bottom: 1rem;
+  }
 }
 .card_heading {
   font-size: 1.5rem;
@@ -871,6 +989,15 @@
   margin: 5rem 4rem 0 6rem;
   align-items: center;
   gap: 10rem;
+
+  @media (min-width: 37.4em) and (max-width: 47.85em) {
+    flex-direction: column;
+    margin-left: -1rem;
+    gap: 5rem;
+  }
+  @media (min-width: 25em) and (max-width: 37.3em) {
+    margin-left: 4rem;
+  }
 }
 .cardinfo_flex {
   display: flex;
@@ -891,12 +1018,6 @@
   background-color: rgba(128, 128, 128, 0.534);
   border-radius: 1.5rem;
   overflow: hidden;
-}
-.progress_digit {
-  color: $black_color;
-  font-size: 1.2rem;
-  font-family: "poppins";
-  margin: 0.5rem 0 0.7rem 20rem;
 }
 
 .btnsection {
@@ -949,6 +1070,21 @@
   font-family: "poppins";
   text-align: right;
   margin: 1rem 1.7rem 1rem 0;
+  @media (min-width: 33em) and (max-width: 42em) {
+    margin-right: 10rem;
+  }
+  @media (min-width: 32em) and (max-width: 42em) {
+    margin-right: 4rem;
+  }
+  @media (min-width: 34em) and (max-width: 37em) {
+    margin-right: 2rem;
+  }
+  @media (min-width: 26em) and (max-width: 31em) {
+    margin-right: 3rem;
+  }
+  @media (min-width: 16em) and (max-width: 22em) {
+    margin-right: 3rem;
+  }
 }
 
 .addition_icons,
@@ -982,4 +1118,51 @@
 }
 .addition_icons6 {
   background-color: orangered;
+}
+.card_1,
+.card_2,
+.card_3,
+.card_4,
+.card_5,
+.card_6 {
+  @include responsive(mobile) {
+  }
+  @include responsive(tablet) {
+    width: 28rem;
+  }
+  @include responsive(small_laptop) {
+    width: 35rem;
+  }
+  @include responsive(large_display) {
+    width: 30rem;
+  }
+  @media (min-width: 87em) and (max-width: 99em) {
+    width: 35rem;
+  }
+  @media (min-width: 62em) and (max-width: 68em) {
+    width: 30rem;
+  }
+  @media (min-width: 40em) and (max-width: 47em) {
+    width: 45rem;
+  }
+  @media (min-width: 37.4em) and (max-width: 47.85em) {
+    width: 45rem;
+    border-radius: 2rem;
+  }
+  @media (min-width: 49.5em) and (max-width: 57.6em) {
+    width: 45rem;
+  }
+  @media (min-width: 25em) and (max-width: 34.3em) {
+    width: 50rem;
+  }
+  @media (min-width: 25em) and (max-width: 37.3em) {
+    width: 50rem;
+  }
+  @media (min-width: 16em) and (max-width: 23em) {
+    .cards_6,
+    .card_5 {
+      padding-bottom: -25rem;
+    }
+    width: 60rem;
+  }
 }

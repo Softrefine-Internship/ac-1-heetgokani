@@ -7,14 +7,49 @@
 html {
   font-size: 62.5%;
 }
-@media (min-width: 100em) and (max-width: 124em) {
-  html {
-    font-size: 70%;
-  }
-}
 @media (min-width: 125em) {
   html {
     font-size: 110%;
+  }
+}
+@media (min-width: 87em) and (max-width: 99em) {
+  html {
+    font-size: 60%;
+  }
+}
+@media (min-width: 62em) and (max-width: 68em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (min-width: 43em) and (max-width: 62em) {
+  html {
+    font-size: 45%;
+  }
+}
+@media (min-width: 34em) and (max-width: 43em) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (min-width: 23em) and (max-width: 34em) {
+  html {
+    font-size: 30%;
+  }
+}
+@media (min-width: 13em) and (max-width: 23em) {
+  html {
+    font-size: 20%;
+  }
+}
+@media (min-width: 37.4em) and (max-width: 47.85em) {
+  html {
+    font-size: 35%;
+  }
+}
+@media (min-width: 49.5em) and (max-width: 57.6em) {
+  html {
+    font-size: 38%;
   }
 }
 
@@ -81,6 +116,12 @@ html {
   width: 100vw;
   height: 100vh;
 }
+@media (max-width: 599px) {
+  .main__container {
+    overflow-y: visible;
+    height: 80rem;
+  }
+}
 
 .sub__container {
   background-color: #f3f6fd;
@@ -88,9 +129,14 @@ html {
   left: 50%;
   width: 100vw;
   height: 100vh;
-  position: absolute;
-  transform: translate(-50%, -50%);
   overflow: hidden;
+}
+@media (max-width: 599px) {
+  .sub__container {
+    overflow-y: visible;
+    height: 150rem;
+    margin: 0 0 0 0;
+  }
 }
 
 .vertical_line {
@@ -214,9 +260,34 @@ html {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
   position: relative;
 }
+@media (min-width: 75em) and (max-width: 123em) {
+  .card_1 {
+    width: 28rem;
+  }
+}
+@media (min-width: 100em) and (max-width: 124em) {
+  .card_1 {
+    width: 35rem;
+  }
+}
 @media (min-width: 125em) {
   .card_1 {
     width: 30rem;
+  }
+}
+@media (min-width: 87em) and (max-width: 99em) {
+  .card_1 {
+    width: 35rem;
+  }
+}
+@media (min-width: 62em) and (max-width: 68em) {
+  .card_1 {
+    width: 30rem;
+  }
+}
+@media (min-width: 40em) and (max-width: 47em) {
+  .card_1 {
+    width: 45rem;
   }
 }
 .card_1 .progress_sub {
@@ -264,6 +335,11 @@ html {
   font-family: "poppins";
   text-align: right;
 }
+@media (min-width: 33em) and (max-width: 42em) {
+  .card_1 .progress_digit {
+    text-align: center;
+  }
+}
 .card_1 .btnsection {
   border-top: 0.1px solid rgba(128, 128, 128, 0.63);
   display: flex;
@@ -297,6 +373,11 @@ html {
   transform: translate(-50%, -50%);
   margin: 0 0 0 2rem;
 }
+@media (min-width: 34em) and (max-width: 43em) {
+  .card_1::before {
+    margin: 0 0 0 5rem;
+  }
+}
 .card_1::after {
   content: "";
   position: absolute;
@@ -311,6 +392,11 @@ html {
   opacity: 0;
   transform: translate(-50%, -50%);
   cursor: pointer;
+}
+@media (min-width: 34em) and (max-width: 43em) {
+  .card_1::after {
+    margin: 0 0 0 10rem;
+  }
 }
 
 .card_1:hover::before,
@@ -329,9 +415,34 @@ html {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
   position: relative;
 }
+@media (min-width: 75em) and (max-width: 123em) {
+  .card_2 {
+    width: 28rem;
+  }
+}
+@media (min-width: 100em) and (max-width: 124em) {
+  .card_2 {
+    width: 35rem;
+  }
+}
 @media (min-width: 125em) {
   .card_2 {
     width: 30rem;
+  }
+}
+@media (min-width: 87em) and (max-width: 99em) {
+  .card_2 {
+    width: 35rem;
+  }
+}
+@media (min-width: 62em) and (max-width: 68em) {
+  .card_2 {
+    width: 30rem;
+  }
+}
+@media (min-width: 40em) and (max-width: 47em) {
+  .card_2 {
+    width: 45rem;
   }
 }
 .card_2 .progress_sub {
@@ -414,6 +525,11 @@ html {
   transform: translate(-50%, -50%);
   margin: 0 0 0 2rem;
 }
+@media (min-width: 34em) and (max-width: 43em) {
+  .card_2::before {
+    margin: 0 0 0 5rem;
+  }
+}
 .card_2::after {
   content: "";
   position: absolute;
@@ -428,6 +544,11 @@ html {
   opacity: 0;
   transform: translate(-50%, -50%);
   cursor: pointer;
+}
+@media (min-width: 34em) and (max-width: 43em) {
+  .card_2::after {
+    margin: 0 0 0 10rem;
+  }
 }
 
 .card_2:hover::before,
@@ -446,9 +567,34 @@ html {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
   position: relative;
 }
+@media (min-width: 75em) and (max-width: 123em) {
+  .card_3 {
+    width: 28rem;
+  }
+}
+@media (min-width: 100em) and (max-width: 124em) {
+  .card_3 {
+    width: 35rem;
+  }
+}
 @media (min-width: 125em) {
   .card_3 {
     width: 30rem;
+  }
+}
+@media (min-width: 87em) and (max-width: 99em) {
+  .card_3 {
+    width: 35rem;
+  }
+}
+@media (min-width: 62em) and (max-width: 68em) {
+  .card_3 {
+    width: 30rem;
+  }
+}
+@media (min-width: 40em) and (max-width: 47em) {
+  .card_3 {
+    width: 45rem;
   }
 }
 .card_3 .progress_sub {
@@ -533,6 +679,11 @@ html {
   transform: translate(-50%, -50%);
   margin: 0 0 0 2rem;
 }
+@media (min-width: 34em) and (max-width: 43em) {
+  .card_3::before {
+    margin: 0 0 0 5rem;
+  }
+}
 .card_3::after {
   content: "";
   position: absolute;
@@ -547,6 +698,11 @@ html {
   opacity: 0;
   transform: translate(-50%, -50%);
   cursor: pointer;
+}
+@media (min-width: 34em) and (max-width: 43em) {
+  .card_3::after {
+    margin: 0 0 0 10rem;
+  }
 }
 
 .card_3:hover::before,
@@ -565,9 +721,34 @@ html {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
   position: relative;
 }
+@media (min-width: 75em) and (max-width: 123em) {
+  .card_4 {
+    width: 28rem;
+  }
+}
+@media (min-width: 100em) and (max-width: 124em) {
+  .card_4 {
+    width: 35rem;
+  }
+}
 @media (min-width: 125em) {
   .card_4 {
     width: 30rem;
+  }
+}
+@media (min-width: 87em) and (max-width: 99em) {
+  .card_4 {
+    width: 35rem;
+  }
+}
+@media (min-width: 62em) and (max-width: 68em) {
+  .card_4 {
+    width: 30rem;
+  }
+}
+@media (min-width: 40em) and (max-width: 47em) {
+  .card_4 {
+    width: 45rem;
   }
 }
 .card_4 .progress_sub {
@@ -654,6 +835,11 @@ html {
   transform: translate(-50%, -50%);
   margin: 0 0 0 2rem;
 }
+@media (min-width: 34em) and (max-width: 43em) {
+  .card_4::before {
+    margin: 0 0 0 5rem;
+  }
+}
 .card_4::after {
   content: "";
   position: absolute;
@@ -668,6 +854,11 @@ html {
   opacity: 0;
   transform: translate(-50%, -50%);
   cursor: pointer;
+}
+@media (min-width: 34em) and (max-width: 43em) {
+  .card_4::after {
+    margin: 0 0 0 10rem;
+  }
 }
 
 .card_4:hover::before,
@@ -686,9 +877,34 @@ html {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
   position: relative;
 }
+@media (min-width: 75em) and (max-width: 123em) {
+  .card_5 {
+    width: 28rem;
+  }
+}
+@media (min-width: 100em) and (max-width: 124em) {
+  .card_5 {
+    width: 35rem;
+  }
+}
 @media (min-width: 125em) {
   .card_5 {
     width: 30rem;
+  }
+}
+@media (min-width: 87em) and (max-width: 99em) {
+  .card_5 {
+    width: 35rem;
+  }
+}
+@media (min-width: 62em) and (max-width: 68em) {
+  .card_5 {
+    width: 30rem;
+  }
+}
+@media (min-width: 40em) and (max-width: 47em) {
+  .card_5 {
+    width: 45rem;
   }
 }
 .card_5 .progress_sub {
@@ -775,6 +991,11 @@ html {
   transform: translate(-50%, -50%);
   margin: 0 0 0 2rem;
 }
+@media (min-width: 34em) and (max-width: 43em) {
+  .card_5::before {
+    margin: 0 0 0 5rem;
+  }
+}
 .card_5::after {
   content: "";
   position: absolute;
@@ -789,6 +1010,11 @@ html {
   opacity: 0;
   transform: translate(-50%, -50%);
   cursor: pointer;
+}
+@media (min-width: 34em) and (max-width: 43em) {
+  .card_5::after {
+    margin: 0 0 0 10rem;
+  }
 }
 
 .card_5:hover::before,
@@ -807,9 +1033,34 @@ html {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
   position: relative;
 }
+@media (min-width: 75em) and (max-width: 123em) {
+  .card_6 {
+    width: 28rem;
+  }
+}
+@media (min-width: 100em) and (max-width: 124em) {
+  .card_6 {
+    width: 35rem;
+  }
+}
 @media (min-width: 125em) {
   .card_6 {
     width: 30rem;
+  }
+}
+@media (min-width: 87em) and (max-width: 99em) {
+  .card_6 {
+    width: 35rem;
+  }
+}
+@media (min-width: 62em) and (max-width: 68em) {
+  .card_6 {
+    width: 30rem;
+  }
+}
+@media (min-width: 40em) and (max-width: 47em) {
+  .card_6 {
+    width: 45rem;
   }
 }
 .card_6 .progress_sub {
@@ -896,6 +1147,11 @@ html {
   transform: translate(-50%, -50%);
   margin: 0 0 0 2rem;
 }
+@media (min-width: 34em) and (max-width: 43em) {
+  .card_6::before {
+    margin: 0 0 0 5rem;
+  }
+}
 .card_6::after {
   content: "";
   position: absolute;
@@ -911,6 +1167,11 @@ html {
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
+@media (min-width: 34em) and (max-width: 43em) {
+  .card_6::after {
+    margin: 0 0 0 10rem;
+  }
+}
 
 .card_6:hover::before,
 .card_6:hover::after {
@@ -922,6 +1183,21 @@ html {
 
 .cards_section {
   padding-bottom: 12rem;
+}
+@media (min-width: 0em) and (max-width: 61em) {
+  .cards_section {
+    flex-direction: column;
+  }
+}
+@media (min-width: 34em) and (max-width: 43em) {
+  .cards_section {
+    margin: 0 0 0 5rem;
+  }
+}
+@media (min-width: 16em) and (max-width: 23em) {
+  .cards_section {
+    padding-bottom: 1rem;
+  }
 }
 
 .card_heading {
@@ -1000,6 +1276,18 @@ html {
   align-items: center;
   gap: 10rem;
 }
+@media (min-width: 37.4em) and (max-width: 47.85em) {
+  .two_card_flex {
+    flex-direction: column;
+    margin-left: -1rem;
+    gap: 5rem;
+  }
+}
+@media (min-width: 25em) and (max-width: 37.3em) {
+  .two_card_flex {
+    margin-left: 4rem;
+  }
+}
 
 .cardinfo_flex {
   display: flex;
@@ -1022,13 +1310,6 @@ html {
   background-color: rgba(128, 128, 128, 0.534);
   border-radius: 1.5rem;
   overflow: hidden;
-}
-
-.progress_digit {
-  color: #151522;
-  font-size: 1.2rem;
-  font-family: "poppins";
-  margin: 0.5rem 0 0.7rem 20rem;
 }
 
 .btnsection {
@@ -1088,6 +1369,31 @@ html {
   text-align: right;
   margin: 1rem 1.7rem 1rem 0;
 }
+@media (min-width: 33em) and (max-width: 42em) {
+  .progress_status {
+    margin-right: 10rem;
+  }
+}
+@media (min-width: 32em) and (max-width: 42em) {
+  .progress_status {
+    margin-right: 4rem;
+  }
+}
+@media (min-width: 34em) and (max-width: 37em) {
+  .progress_status {
+    margin-right: 2rem;
+  }
+}
+@media (min-width: 26em) and (max-width: 31em) {
+  .progress_status {
+    margin-right: 3rem;
+  }
+}
+@media (min-width: 16em) and (max-width: 22em) {
+  .progress_status {
+    margin-right: 3rem;
+  }
+}
 
 .addition_icons,
 .addition_icons2,
@@ -1126,6 +1432,132 @@ html {
   background-color: orangered;
 }
 
+@media (min-width: 75em) and (max-width: 123em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    width: 28rem;
+  }
+}
+@media (min-width: 100em) and (max-width: 124em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    width: 35rem;
+  }
+}
+@media (min-width: 125em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    width: 30rem;
+  }
+}
+@media (min-width: 87em) and (max-width: 99em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    width: 35rem;
+  }
+}
+@media (min-width: 62em) and (max-width: 68em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    width: 30rem;
+  }
+}
+@media (min-width: 40em) and (max-width: 47em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    width: 45rem;
+  }
+}
+@media (min-width: 37.4em) and (max-width: 47.85em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    width: 45rem;
+    border-radius: 2rem;
+  }
+}
+@media (min-width: 49.5em) and (max-width: 57.6em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    width: 45rem;
+  }
+}
+@media (min-width: 25em) and (max-width: 34.3em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    width: 50rem;
+  }
+}
+@media (min-width: 25em) and (max-width: 37.3em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    width: 50rem;
+  }
+}
+@media (min-width: 16em) and (max-width: 23em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    width: 60rem;
+  }
+  .card_1 .cards_6,
+  .card_1 .card_5,
+  .card_2 .cards_6,
+  .card_2 .card_5,
+  .card_3 .cards_6,
+  .card_3 .card_5,
+  .card_4 .cards_6,
+  .card_4 .card_5,
+  .card_5 .cards_6,
+  .card_5 .card_5,
+  .card_6 .cards_6,
+  .card_6 .card_5 {
+    padding-bottom: -25rem;
+  }
+}
+
 .bellsection {
   position: relative;
 }
@@ -1161,6 +1593,11 @@ html {
   padding: 1.8rem 3rem;
   border-radius: 5rem;
   border: none;
+}
+@media (min-width: 8em) and (max-width: 25em) {
+  .searchbar__element {
+    font-size: 2rem;
+  }
 }
 .searchbar__icon {
   position: absolute;
@@ -1363,14 +1800,17 @@ html {
 @media (min-width: 100em) and (max-width: 124em) {
   .smallcards {
     margin-right: 1rem;
-    width: 100%;
-    font-size: 70%;
+  }
+}
+@media (min-width: 100em) and (max-width: 124em) {
+  .smallcards {
+    margin-right: 1rem;
+    font-size: 50%;
   }
 }
 @media (min-width: 125em) and (max-width: 143em) {
   .smallcards {
     margin-right: 1rem;
-    width: 100%;
   }
 }
 .smallcards:hover {
@@ -1402,9 +1842,52 @@ html {
     width: 30rem;
   }
 }
-@media (min-width: 124em) and (max-width: 100em) {
+@media (min-width: 100em) and (max-width: 121em) {
   .smallcards__iconflex {
-    font-size: 10rem;
+    font-size: 15rem;
+    width: 30rem;
+  }
+}
+@media (min-width: 100em) and (max-width: 124em) {
+  .smallcards__iconflex {
+    font-size: 50rem;
+    width: 40rem;
+  }
+}
+@media (min-width: 104em) and (max-width: 126em) {
+  .smallcards__iconflex {
+    font-size: 60rem;
+    width: 50rem;
+  }
+}
+@media (min-width: 103em) and (max-width: 115em) {
+  .smallcards__iconflex {
+    font-size: 40rem;
+    width: 40rem;
+  }
+}
+@media (min-width: 62em) and (max-width: 75em) {
+  .smallcards__iconflex {
+    font-size: 2rem;
+    width: 30rem;
+  }
+}
+@media (min-width: 87em) and (max-width: 98em) {
+  .smallcards__iconflex {
+    font-size: 40rem;
+    width: 40rem;
+  }
+}
+@media (min-width: 43em) and (max-width: 50em) {
+  .smallcards__iconflex {
+    font-size: 25rem;
+    width: 30rem;
+  }
+}
+@media (min-width: 33em) and (max-width: 42em) {
+  .smallcards__iconflex {
+    font-size: 25rem;
+    width: 30rem;
   }
 }
 .smallcards__name {
@@ -1440,7 +1923,8 @@ html {
 
 .col_1 {
   overflow: auto;
-  height: 50rem;
+  height: 100rem;
+  filter: none;
 }
 
 .col_2 {
@@ -1448,15 +1932,38 @@ html {
   color: white;
   background-color: #ffffff;
   border-radius: 7%;
-  overflow: hidden;
+  overflow: auto;
+  filter: none;
+}
+@media (max-width: 599px) {
+  .col_2 {
+    height: 110rem;
+    width: 80vw;
+    margin-left: 2rem;
+    padding-bottom: 0;
+  }
 }
 
 .col_3 {
-  height: 55rem;
+  height: auto;
   color: white;
   overflow: hidden;
-  height: 100vh;
-  overflow-x: visible;
+}
+
+@media (max-width: 599px) {
+  .sub_container_grid {
+    grid-template-columns: 8% 100%;
+    grid-template-rows: auto auto;
+  }
+  .col_3 {
+    grid-column: 1/-1;
+    height: auto;
+    margin-top: 1rem;
+  }
+  .card_5,
+  .card_6 {
+    margin-bottom: 3rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

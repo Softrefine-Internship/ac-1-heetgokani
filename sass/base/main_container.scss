@@ -2,4 +2,8 @@
   background-color: $main_container_bg_color;
   width: 100vw;
   height: 100vh;
+  @media (max-width: 599px) {
+    overflow-y: visible;
+    height: 80rem;
+  }
 }
