@@ -222,6 +222,9 @@
     @media (min-width: 125em) and (max-width: 143em) {
       width: 30rem;
     }
+    @media (min-width: 124em) and (max-width: 100em) {
+      font-size: 10rem;
+    }
   }
 
   &__name {

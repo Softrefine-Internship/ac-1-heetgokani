@@ -7,6 +7,11 @@
 html {
   font-size: 62.5%;
 }
+@media (min-width: 100em) and (max-width: 124em) {
+  html {
+    font-size: 70%;
+  }
+}
 @media (min-width: 125em) {
   html {
     font-size: 110%;
@@ -1395,6 +1400,11 @@ html {
 @media (min-width: 125em) and (max-width: 143em) {
   .smallcards__iconflex {
     width: 30rem;
+  }
+}
+@media (min-width: 124em) and (max-width: 100em) {
+  .smallcards__iconflex {
+    font-size: 10rem;
   }
 }
 .smallcards__name {

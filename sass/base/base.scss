@@ -13,6 +13,7 @@ html {
   @include responsive(tablet) {
   }
   @include responsive(small_laptop) {
+    font-size: 70%;
   }
   @include responsive(large_display) {
     font-size: 110%;

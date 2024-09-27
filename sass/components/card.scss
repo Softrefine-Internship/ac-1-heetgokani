@@ -272,6 +272,7 @@
   }
   @include responsive(small_laptop) {
   }
+
   @include responsive(large_display) {
     width: 30rem;
   }
