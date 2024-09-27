@@ -1935,6 +1935,9 @@ html {
   overflow: auto;
   filter: none;
 }
+.col_2::-webkit-scrollbar {
+  display: none;
+}
 @media (max-width: 599px) {
   .col_2 {
     height: 110rem;
