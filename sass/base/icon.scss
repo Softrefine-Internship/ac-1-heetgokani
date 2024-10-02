@@ -36,6 +36,26 @@
     padding: 1.5rem;
     transition: all 0.4s ease;
     border-radius: 50%;
+    @media (min-width: 46em) and (max-width: 61em) {
+      width: 3rem;
+      height: 3rem;
+    }
+    @media (min-width: 38em) and (max-width: 45em) {
+      width: 3rem;
+      height: 3rem;
+      margin: 0 2rem;
+    }
+    @media (min-width: 25em) and (max-width: 38em) {
+      width: 2.5rem;
+      height: 2.5rem;
+      margin: 0 0 0 2rem;
+    }
+    @media (min-width: 13em) and (max-width: 25em) {
+      width: 2rem;
+      height: 2rem;
+      margin: 0 0 0 1rem;
+    }
+
     &:hover {
       background-color: $black_color;
       cursor: pointer;

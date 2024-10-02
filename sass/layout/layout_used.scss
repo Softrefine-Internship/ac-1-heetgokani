@@ -4,6 +4,30 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media (min-width: 124em) and (max-width: 133em) {
+    margin-left: 1rem;
+  }
+  @media (min-width: 117em) and (max-width: 124.93em) {
+    margin-left: 5rem;
+  }
+  @media (min-width: 107em) and (max-width: 117em) {
+    margin-left: 5rem;
+  }
+  @media (min-width: 97em) and (max-width: 107em) {
+    margin-left: 4.5rem;
+  }
+  @media (min-width: 81em) and (max-width: 97em) {
+    margin-left: 2rem;
+  }
+  @media (min-width: 98em) and (max-width: 81em) {
+    margin-left: 6rem;
+  }
+  @media (min-width: 68em) and (max-width: 80em) {
+    margin-left: 2.5rem;
+  }
+  @media (min-width: 44em) and (max-width: 50em) {
+    margin-left: 2rem;
+  }
 }
 .profile_class {
   display: flex;
@@ -20,7 +44,7 @@
     font-family: "poppins";
     transition: all 0.3s ease;
     &:hover {
-      transform: rotate(10deg);
+      transform: scale(1.1);
       cursor: pointer;
     }
   }
@@ -31,7 +55,7 @@
     transition: all 0.3s ease;
     margin-right: 7rem;
     &:hover {
-      transform: rotate(15deg);
+      transform: scale(1.1);
       cursor: pointer;
     }
   }
@@ -223,39 +247,33 @@
     align-items: center;
     justify-content: space-between;
     width: 35.2rem;
-    @media (min-width: 125em) and (max-width: 143em) {
+
+    @media (min-width: 142em) and (max-width: 165em) {
+      width: 35rem;
+    }
+
+    @media (min-width: 117em) and (max-width: 125em) {
+      width: 55rem;
+    }
+    @media (min-width: 107em) and (max-width: 117em) {
+      width: 53rem;
+    }
+    @media (min-width: 97em) and (max-width: 107em) {
+      width: 45rem;
+    }
+    @media (min-width: 87em) and (max-width: 97em) {
+      width: 42rem;
+    }
+    @media (min-width: 70em) and (max-width: 80rem) {
       width: 30rem;
     }
-    @media (min-width: 100em) and (max-width: 121em) {
-      font-size: 15rem;
-      width: 30rem;
-    }
-    @media (min-width: 100em) and (max-width: 124em) {
-      font-size: 50rem;
+    @media (min-width: 52em) and (max-width: 58rem) {
       width: 40rem;
     }
-    @media (min-width: 104em) and (max-width: 126em) {
-      font-size: 60rem;
-      width: 50rem;
+    @media (min-width: 50em) and (max-width: 52rem) {
+      width: 35rem;
     }
-    @media (min-width: 103em) and (max-width: 115em) {
-      font-size: 40rem;
-      width: 40rem;
-    }
-    @media (min-width: 62em) and (max-width: 75em) {
-      font-size: 2rem;
-      width: 30rem;
-    }
-    @media (min-width: 87em) and (max-width: 98em) {
-      font-size: 40rem;
-      width: 40rem;
-    }
-    @media (min-width: 43em) and (max-width: 50em) {
-      font-size: 25rem;
-      width: 30rem;
-    }
-    @media (min-width: 33em) and (max-width: 42em) {
-      font-size: 25rem;
+    @media (min-width: 48em) and (max-width: 49rem) {
       width: 30rem;
     }
   }
