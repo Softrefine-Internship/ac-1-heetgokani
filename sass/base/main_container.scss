@@ -4,6 +4,9 @@
   height: 100vh;
   @media (max-width: 599px) {
     overflow-y: visible;
-    height: 80rem;
+    height: 100vh;
+  }
+  @media (min-width: 3em) and (max-width: 50em) {
+    height: 100vh;
   }
 }

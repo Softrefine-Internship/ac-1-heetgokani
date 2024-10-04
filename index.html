@@ -85,6 +85,7 @@
                 name="person-circle-outline"
               ></ion-icon>
               <ion-icon
+                id="msgIcon"
                 class="icon__flex--icons"
                 name="chatbox-outline"
               ></ion-icon>
@@ -102,7 +103,8 @@
               ></ion-icon>
             </section>
           </div>
-          <div class="col_2">
+
+          <div id="col" class="col_2">
             <article class="sub_container_body_section">
               <main>
                 <section class="bodysection">
@@ -378,7 +380,7 @@
                     <div class="progress_bar">
                       <div class="progress_sub"></div>
                     </div>
-                    <h1 class="progress_status">20%</h1>
+                    <h1 class="progress_status">10%</h1>
                     <div class="submit_flex">
                       <section class="image_flex">
                         <img
@@ -602,5 +604,22 @@
         </section>
       </section>
     </main>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const msgIcon = document.getElementById("msgIcon");
+        const col = document.getElementById("col");
+
+        if (msgIcon && col) {
+          msgIcon.addEventListener("click", function () {
+            if (window.innerWidth < 800) {
+              console.log("clicked");
+              col.classList.toggle("hide");
+            }
+          });
+        } else {
+          console.error("not found");
+        }
+      });
+    </script>
   </body>
 </html>

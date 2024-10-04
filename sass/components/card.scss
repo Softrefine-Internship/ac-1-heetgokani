@@ -360,6 +360,7 @@
   @media (min-width: 40em) and (max-width: 47em) {
     width: 45rem;
   }
+
   .progress_sub {
     height: 100%;
     background-color: green;
@@ -1105,6 +1106,15 @@
   @media (min-width: 40em) and (max-width: 45em) {
     width: 55rem;
   }
+  @media (min-width: 44em) and (max-width: 50em) {
+    width: 80rem;
+  }
+  @media (min-width: 40em) and (max-width: 44em) {
+    width: 60rem;
+  }
+  @media (min-width: 37em) and (max-width: 39em) {
+    width: 60rem;
+  }
 }
 .cardinfo_flex {
   display: flex;
@@ -1256,13 +1266,7 @@
   @media (min-width: 40em) and (max-width: 47em) {
     width: 45rem;
   }
-  @media (min-width: 37.4em) and (max-width: 47.85em) {
-    width: 45rem;
-    border-radius: 2rem;
-  }
-  @media (min-width: 49.5em) and (max-width: 57.6em) {
-    width: 45rem;
-  }
+
   @media (min-width: 25em) and (max-width: 34.3em) {
     width: 50rem;
   }
@@ -1281,5 +1285,17 @@
       padding-bottom: -25rem;
     }
     width: 60rem;
+  }
+  @media (min-width: 37.5em) and (max-width: 50em) {
+    width: 70rem;
+  }
+  @media (min-width: 40em) and (max-width: 44em) {
+    width: 60rem;
+  }
+  @media (min-width: 36.5em) and (max-width: 39em) {
+    width: 60rem;
+  }
+  @media (min-width: 33em) and (max-width: 34em) {
+    margin-left: 3rem;
   }
 }

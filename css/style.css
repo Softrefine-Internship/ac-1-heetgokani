@@ -24,27 +24,27 @@ html {
 }
 @media (min-width: 43em) and (max-width: 62em) {
   html {
-    font-size: 45%;
+    font-size: 50%;
   }
 }
 @media (min-width: 34em) and (max-width: 43em) {
   html {
-    font-size: 40%;
+    font-size: 35%;
   }
 }
 @media (min-width: 23em) and (max-width: 34em) {
   html {
-    font-size: 30%;
+    font-size: 35%;
   }
 }
 @media (min-width: 13em) and (max-width: 23em) {
   html {
-    font-size: 30%;
+    font-size: 35%;
   }
 }
 @media (min-width: 37.4em) and (max-width: 45.85em) {
   html {
-    font-size: 30%;
+    font-size: 40%;
   }
 }
 @media (min-width: 47em) and (max-width: 47.85em) {
@@ -54,7 +54,22 @@ html {
 }
 @media (min-width: 49.5em) and (max-width: 57.6em) {
   html {
-    font-size: 38%;
+    font-size: 40%;
+  }
+}
+@media (min-width: 38em) and (max-width: 50em) {
+  html {
+    font-size: 45%;
+  }
+}
+@media (min-width: 38em) and (max-width: 50em) {
+  html {
+    font-size: 45%;
+  }
+}
+@media (min-width: 13em) and (max-width: 22em) {
+  html {
+    font-size: 25%;
   }
 }
 
@@ -117,7 +132,8 @@ html {
   .icon__flex--icons {
     width: 2.5rem;
     height: 2.5rem;
-    margin: 0 0 0 2rem;
+    margin: 0 1rem 0 2rem;
+    padding: 1rem;
   }
 }
 @media (min-width: 13em) and (max-width: 25em) {
@@ -125,6 +141,8 @@ html {
     width: 2rem;
     height: 2rem;
     margin: 0 0 0 1rem;
+    padding: 1rem;
+    z-index: 999;
   }
 }
 .icon__flex--icons:hover {
@@ -151,7 +169,12 @@ html {
 @media (max-width: 599px) {
   .main__container {
     overflow-y: visible;
-    height: 80rem;
+    height: 100vh;
+  }
+}
+@media (min-width: 3em) and (max-width: 50em) {
+  .main__container {
+    height: 100vh;
   }
 }
 
@@ -163,10 +186,15 @@ html {
   height: 100vh;
   overflow: hidden;
 }
+@media (min-width: 3em) and (max-width: 50em) {
+  .sub__container {
+    height: 100vh;
+  }
+}
 @media (max-width: 599px) {
   .sub__container {
     overflow-y: visible;
-    height: 150rem;
+    height: 100vh;
     margin: 0 0 0 0;
   }
 }
@@ -1504,6 +1532,21 @@ html {
     width: 55rem;
   }
 }
+@media (min-width: 44em) and (max-width: 50em) {
+  .two_card_flex {
+    width: 80rem;
+  }
+}
+@media (min-width: 40em) and (max-width: 44em) {
+  .two_card_flex {
+    width: 60rem;
+  }
+}
+@media (min-width: 37em) and (max-width: 39em) {
+  .two_card_flex {
+    width: 60rem;
+  }
+}
 
 .cardinfo_flex {
   display: flex;
@@ -1719,27 +1762,6 @@ html {
     width: 45rem;
   }
 }
-@media (min-width: 37.4em) and (max-width: 47.85em) {
-  .card_1,
-  .card_2,
-  .card_3,
-  .card_4,
-  .card_5,
-  .card_6 {
-    width: 45rem;
-    border-radius: 2rem;
-  }
-}
-@media (min-width: 49.5em) and (max-width: 57.6em) {
-  .card_1,
-  .card_2,
-  .card_3,
-  .card_4,
-  .card_5,
-  .card_6 {
-    width: 45rem;
-  }
-}
 @media (min-width: 25em) and (max-width: 34.3em) {
   .card_1,
   .card_2,
@@ -1802,6 +1824,46 @@ html {
   .card_6 .cards_6,
   .card_6 .card_5 {
     padding-bottom: -25rem;
+  }
+}
+@media (min-width: 37.5em) and (max-width: 50em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    width: 70rem;
+  }
+}
+@media (min-width: 40em) and (max-width: 44em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    width: 60rem;
+  }
+}
+@media (min-width: 36.5em) and (max-width: 39em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    width: 60rem;
+  }
+}
+@media (min-width: 33em) and (max-width: 34em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    margin-left: 3rem;
   }
 }
 
@@ -1897,14 +1959,49 @@ html {
     margin-left: 6rem;
   }
 }
+@media (min-width: 68em) and (max-width: 75em) {
+  .header__flex {
+    margin-left: 2rem;
+  }
+}
 @media (min-width: 68em) and (max-width: 80em) {
   .header__flex {
-    margin-left: 2.5rem;
+    margin-left: 2rem;
+  }
+}
+@media (min-width: 50em) and (max-width: 68em) {
+  .header__flex {
+    margin-left: 2rem;
   }
 }
 @media (min-width: 44em) and (max-width: 50em) {
   .header__flex {
     margin-left: 2rem;
+  }
+}
+@media (min-width: 34em) and (max-width: 40em) {
+  .header__flex {
+    margin-left: 2rem;
+  }
+}
+@media (min-width: 34em) and (max-width: 37em) {
+  .header__flex {
+    margin-left: 2rem;
+  }
+}
+@media (min-width: 30em) and (max-width: 34em) {
+  .header__flex {
+    margin-left: 2rem;
+  }
+}
+@media (min-width: 26em) and (max-width: 30em) {
+  .header__flex {
+    margin-left: 2rem;
+  }
+}
+@media (min-width: 20em) and (max-width: 26em) {
+  .header__flex {
+    margin-left: 1.25rem;
   }
 }
 
@@ -2065,6 +2162,16 @@ html {
   height: 100vh;
   padding: 0 0 0 0;
 }
+@media (min-width: 0em) and (max-width: 50em) {
+  .smallcard_src {
+    margin-top: -20rem;
+    width: 50rem;
+  }
+}
+
+.hide {
+  display: none;
+}
 
 .twodoticonfooter {
   display: flex;
@@ -2166,14 +2273,49 @@ html {
     width: 40rem;
   }
 }
-@media (min-width: 50em) and (max-width: 52rem) {
+@media (min-width: 48em) and (max-width: 50rem) {
   .smallcards__iconflex {
-    width: 35rem;
+    width: 88rem;
   }
 }
-@media (min-width: 48em) and (max-width: 49rem) {
+@media (min-width: 46em) and (max-width: 48rem) {
   .smallcards__iconflex {
-    width: 30rem;
+    width: 84rem;
+  }
+}
+@media (min-width: 44em) and (max-width: 46rem) {
+  .smallcards__iconflex {
+    width: 80rem;
+  }
+}
+@media (min-width: 42em) and (max-width: 44rem) {
+  .smallcards__iconflex {
+    width: 75rem;
+  }
+}
+@media (min-width: 38em) and (max-width: 41rem) {
+  .smallcards__iconflex {
+    width: 70rem;
+  }
+}
+@media (min-width: 34em) and (max-width: 38rem) {
+  .smallcards__iconflex {
+    width: 75rem;
+  }
+}
+@media (min-width: 30em) and (max-width: 34rem) {
+  .smallcards__iconflex {
+    width: 70rem;
+  }
+}
+@media (min-width: 25em) and (max-width: 30rem) {
+  .smallcards__iconflex {
+    width: 55rem;
+  }
+}
+@media (min-width: 20em) and (max-width: 25em) {
+  .smallcards__iconflex {
+    width: 60rem;
   }
 }
 .smallcards__name {
@@ -2224,10 +2366,10 @@ html {
 .col_2::-webkit-scrollbar {
   display: none;
 }
-@media (max-width: 599px) {
+@media (max-width: 800px) {
   .col_2 {
-    height: 110rem;
-    width: 80vw;
+    height: 100vh;
+    width: 91vw;
     margin-left: 2rem;
     padding-bottom: 0;
   }
@@ -2239,19 +2381,13 @@ html {
   overflow: hidden;
 }
 
-@media (max-width: 599px) {
-  .sub_container_grid {
-    grid-template-columns: 8% 100%;
-    grid-template-rows: auto auto;
+@media (max-width: 800px) {
+  .col_2 {
+    z-index: 99999;
   }
   .col_3 {
-    grid-column: 1/-1;
-    height: auto;
-    margin-top: 1rem;
-  }
-  .card_5,
-  .card_6 {
-    margin-bottom: 3rem;
+    width: 91vw;
+    font-size: 100%;
   }
 }
 
