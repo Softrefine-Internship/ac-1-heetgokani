@@ -1109,10 +1109,10 @@
   @media (min-width: 44em) and (max-width: 50em) {
     width: 80rem;
   }
-  @media (min-width: 40em) and (max-width: 44em) {
-    width: 60rem;
+  @media (min-width: 40rem) and (max-width: 44em) {
+    width: 70rem;
   }
-  @media (min-width: 37em) and (max-width: 39em) {
+  @media (min-width: 36rem) and (max-width: 40em) {
     width: 60rem;
   }
 }
@@ -1270,7 +1270,7 @@
     width: 45rem;
   }
   @media (min-width: 38em) and (max-width: 42em) {
-    width: 55rem;
+    width: 90rem;
   }
   @media (min-width: 25em) and (max-width: 34.3em) {
     width: 50rem;
@@ -1285,18 +1285,12 @@
     width: 50rem;
   }
   @media (min-width: 16em) and (max-width: 23em) {
-    .cards_6,
-    .card_5 {
-      padding-bottom: -25rem;
-    }
     width: 60rem;
   }
   @media (min-width: 37.5em) and (max-width: 50em) {
     width: 70rem;
   }
-  @media (min-width: 40em) and (max-width: 44em) {
-    width: 60rem;
-  }
+
   @media (min-width: 36.5em) and (max-width: 39em) {
     width: 60rem;
   }

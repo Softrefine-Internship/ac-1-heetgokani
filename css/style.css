@@ -1537,12 +1537,12 @@ html {
     width: 80rem;
   }
 }
-@media (min-width: 40em) and (max-width: 44em) {
+@media (min-width: 40rem) and (max-width: 44em) {
   .two_card_flex {
-    width: 60rem;
+    width: 70rem;
   }
 }
-@media (min-width: 37em) and (max-width: 39em) {
+@media (min-width: 36rem) and (max-width: 40em) {
   .two_card_flex {
     width: 60rem;
   }
@@ -1779,7 +1779,7 @@ html {
   .card_4,
   .card_5,
   .card_6 {
-    width: 55rem;
+    width: 90rem;
   }
 }
 @media (min-width: 25em) and (max-width: 34.3em) {
@@ -1831,20 +1831,6 @@ html {
   .card_6 {
     width: 60rem;
   }
-  .card_1 .cards_6,
-  .card_1 .card_5,
-  .card_2 .cards_6,
-  .card_2 .card_5,
-  .card_3 .cards_6,
-  .card_3 .card_5,
-  .card_4 .cards_6,
-  .card_4 .card_5,
-  .card_5 .cards_6,
-  .card_5 .card_5,
-  .card_6 .cards_6,
-  .card_6 .card_5 {
-    padding-bottom: -25rem;
-  }
 }
 @media (min-width: 37.5em) and (max-width: 50em) {
   .card_1,
@@ -1854,16 +1840,6 @@ html {
   .card_5,
   .card_6 {
     width: 70rem;
-  }
-}
-@media (min-width: 40em) and (max-width: 44em) {
-  .card_1,
-  .card_2,
-  .card_3,
-  .card_4,
-  .card_5,
-  .card_6 {
-    width: 60rem;
   }
 }
 @media (min-width: 36.5em) and (max-width: 39em) {
