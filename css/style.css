@@ -1721,7 +1721,7 @@ html {
     width: 30rem;
   }
 }
-@media (min-width: 98em) and (max-width: 124em) {
+@media (min-width: 98em) and (max-width: 125em) {
   .card_1,
   .card_2,
   .card_3,
@@ -1752,7 +1752,17 @@ html {
     width: 30rem;
   }
 }
-@media (min-width: 40em) and (max-width: 47em) {
+@media (min-width: 50em) and (max-width: 58em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    width: 40rem;
+  }
+}
+@media (min-width: 44em) and (max-width: 49em) {
   .card_1,
   .card_2,
   .card_3,
@@ -1760,6 +1770,16 @@ html {
   .card_5,
   .card_6 {
     width: 45rem;
+  }
+}
+@media (min-width: 38em) and (max-width: 43em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    width: 55rem;
   }
 }
 @media (min-width: 25em) and (max-width: 34.3em) {
@@ -2315,7 +2335,7 @@ html {
 }
 @media (min-width: 20em) and (max-width: 25em) {
   .smallcards__iconflex {
-    width: 60rem;
+    width: 50rem;
   }
 }
 .smallcards__name {

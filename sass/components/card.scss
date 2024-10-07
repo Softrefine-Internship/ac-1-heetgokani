@@ -1253,7 +1253,7 @@
   @include responsive(large_display) {
     width: 30rem;
   }
-  @media (min-width: 98em) and (max-width: 124em) {
+  @media (min-width: 98em) and (max-width: 125em) {
     margin: 0 2rem;
     width: 50rem;
   }
@@ -1263,10 +1263,15 @@
   @media (min-width: 62em) and (max-width: 68em) {
     width: 30rem;
   }
-  @media (min-width: 40em) and (max-width: 47em) {
+  @media (min-width: 50em) and (max-width: 58em) {
+    width: 40rem;
+  }
+  @media (min-width: 44em) and (max-width: 49em) {
     width: 45rem;
   }
-
+  @media (min-width: 38em) and (max-width: 43em) {
+    width: 55rem;
+  }
   @media (min-width: 25em) and (max-width: 34.3em) {
     width: 50rem;
   }
