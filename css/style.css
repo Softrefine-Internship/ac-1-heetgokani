@@ -1772,7 +1772,7 @@ html {
     width: 45rem;
   }
 }
-@media (min-width: 38em) and (max-width: 43em) {
+@media (min-width: 38em) and (max-width: 42em) {
   .card_1,
   .card_2,
   .card_3,
