@@ -14,7 +14,7 @@ html {
 }
 @media (min-width: 87em) and (max-width: 99em) {
   html {
-    font-size: 60%;
+    font-size: 50%;
   }
 }
 @media (min-width: 62em) and (max-width: 68em) {
@@ -24,52 +24,27 @@ html {
 }
 @media (min-width: 43em) and (max-width: 62em) {
   html {
-    font-size: 50%;
+    font-size: 52%;
   }
 }
 @media (min-width: 34em) and (max-width: 43em) {
   html {
-    font-size: 35%;
+    font-size: 50%;
   }
 }
-@media (min-width: 23em) and (max-width: 34em) {
+@media (min-width: 28em) and (max-width: 34em) {
   html {
-    font-size: 35%;
+    font-size: 43%;
   }
 }
-@media (min-width: 13em) and (max-width: 23em) {
+@media (min-width: 26em) and (max-width: 28em) {
   html {
-    font-size: 35%;
+    font-size: 38%;
   }
 }
-@media (min-width: 37.4em) and (max-width: 45.85em) {
+@media (min-width: 18em) and (max-width: 26em) {
   html {
-    font-size: 40%;
-  }
-}
-@media (min-width: 47em) and (max-width: 47.85em) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (min-width: 49.5em) and (max-width: 57.6em) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (min-width: 38em) and (max-width: 50em) {
-  html {
-    font-size: 45%;
-  }
-}
-@media (min-width: 38em) and (max-width: 50em) {
-  html {
-    font-size: 45%;
-  }
-}
-@media (min-width: 13em) and (max-width: 22em) {
-  html {
-    font-size: 25%;
+    font-size: 37%;
   }
 }
 
@@ -117,32 +92,36 @@ html {
 }
 @media (min-width: 46em) and (max-width: 61em) {
   .icon__flex--icons {
-    width: 3rem;
-    height: 3rem;
-  }
-}
-@media (min-width: 38em) and (max-width: 45em) {
-  .icon__flex--icons {
-    width: 3rem;
-    height: 3rem;
-    margin: 0 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 1rem;
   }
 }
 @media (min-width: 25em) and (max-width: 38em) {
   .icon__flex--icons {
     width: 2.5rem;
     height: 2.5rem;
-    margin: 0 1rem 0 2rem;
+    margin: 1rem 1rem 0 2rem;
     padding: 1rem;
   }
 }
 @media (min-width: 13em) and (max-width: 25em) {
   .icon__flex--icons {
-    width: 2rem;
-    height: 2rem;
-    margin: 0 0 0 1rem;
-    padding: 1rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    margin: 0.5rem 0 0 1rem;
+    padding: 0.7rem;
     z-index: 999;
+  }
+}
+@media (min-width: 38em) and (max-width: 49em) {
+  .icon__flex--icons {
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 1.3rem;
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
   }
 }
 .icon__flex--icons:hover {
@@ -245,7 +224,6 @@ html {
 }
 
 .Portfolio__txt:hover {
-  transform: scale(1.1);
   cursor: pointer;
 }
 
@@ -259,7 +237,6 @@ html {
 }
 
 .Profile_name:hover {
-  transform: scale(1.1);
   cursor: pointer;
 }
 
@@ -381,6 +358,11 @@ html {
   cursor: pointer;
   transform: scale(1.1);
 }
+@media (min-width: 20px) and (max-width: 400px) {
+  .card_1 .time_left_btn {
+    background-color: #fad6b0;
+  }
+}
 .card_1 .progress_bar {
   width: 85%;
   margin: 1rem 1.5rem 0 1.7rem;
@@ -453,6 +435,11 @@ html {
     margin: 0 0 0 1.75rem;
   }
 }
+@media (min-width: 36em) and (max-width: 48em) {
+  .card_1::before {
+    margin: 0 0 0 3rem;
+  }
+}
 .card_1::after {
   content: "";
   position: absolute;
@@ -467,6 +454,11 @@ html {
   opacity: 0;
   transform: translate(-50%, -50%);
   cursor: pointer;
+}
+@media (min-width: 36em) and (max-width: 48em) {
+  .card_1::after {
+    margin: 0 0 0 1rem;
+  }
 }
 @media (min-width: 34em) and (max-width: 43em) {
   .card_1::after {
@@ -486,6 +478,11 @@ html {
 @media (min-width: 34em) and (max-width: 37em) {
   .card_1::after {
     margin: 0 0 0 3.5rem;
+  }
+}
+@media (min-width: 36em) and (max-width: 48em) {
+  .card_1::after {
+    margin: 0 0 0 5rem;
   }
 }
 
@@ -635,6 +632,11 @@ html {
     margin: 0 0 0 1.75rem;
   }
 }
+@media (min-width: 36em) and (max-width: 48em) {
+  .card_2::before {
+    margin: 0 0 0 3rem;
+  }
+}
 .card_2::after {
   content: "";
   position: absolute;
@@ -668,6 +670,11 @@ html {
 @media (min-width: 34em) and (max-width: 37em) {
   .card_2::after {
     margin: 0 0 0 3.5rem;
+  }
+}
+@media (min-width: 36em) and (max-width: 48em) {
+  .card_2::after {
+    margin: 0 0 0 5rem;
   }
 }
 
@@ -819,6 +826,11 @@ html {
     margin: 0 0 0 1.75rem;
   }
 }
+@media (min-width: 36em) and (max-width: 48em) {
+  .card_3::before {
+    margin: 0 0 0 3rem;
+  }
+}
 .card_3::after {
   content: "";
   position: absolute;
@@ -852,6 +864,11 @@ html {
 @media (min-width: 34em) and (max-width: 37em) {
   .card_3::after {
     margin: 0 0 0 3.5rem;
+  }
+}
+@media (min-width: 36em) and (max-width: 48em) {
+  .card_3::after {
+    margin: 0 0 0 5rem;
   }
 }
 
@@ -1005,6 +1022,11 @@ html {
     margin: 0 0 0 1.75rem;
   }
 }
+@media (min-width: 36em) and (max-width: 48em) {
+  .card_4::before {
+    margin: 0 0 0 3rem;
+  }
+}
 .card_4::after {
   content: "";
   position: absolute;
@@ -1038,6 +1060,11 @@ html {
 @media (min-width: 34em) and (max-width: 37em) {
   .card_4::after {
     margin: 0 0 0 3.5rem;
+  }
+}
+@media (min-width: 36em) and (max-width: 48em) {
+  .card_4::after {
+    margin: 0 0 0 5rem;
   }
 }
 
@@ -1191,6 +1218,11 @@ html {
     margin: 0 0 0 1.75rem;
   }
 }
+@media (min-width: 36em) and (max-width: 48em) {
+  .card_5::before {
+    margin: 0 0 0 3rem;
+  }
+}
 .card_5::after {
   content: "";
   position: absolute;
@@ -1224,6 +1256,11 @@ html {
 @media (min-width: 34em) and (max-width: 37em) {
   .card_5::after {
     margin: 0 0 0 3.5rem;
+  }
+}
+@media (min-width: 36em) and (max-width: 48em) {
+  .card_5::after {
+    margin: 0 0 0 5rem;
   }
 }
 
@@ -1377,6 +1414,11 @@ html {
     margin: 0 0 0 1.75rem;
   }
 }
+@media (min-width: 36em) and (max-width: 48em) {
+  .card_6::before {
+    margin: 0 0 0 3rem;
+  }
+}
 .card_6::after {
   content: "";
   position: absolute;
@@ -1410,6 +1452,11 @@ html {
 @media (min-width: 34em) and (max-width: 37em) {
   .card_6::after {
     margin: 0 0 0 3.5rem;
+  }
+}
+@media (min-width: 36em) and (max-width: 48em) {
+  .card_6::after {
+    margin: 0 0 0 5rem;
   }
 }
 
@@ -1509,7 +1556,7 @@ html {
   display: flex;
   margin: 5rem 4rem 0 6rem;
   align-items: center;
-  gap: 10rem;
+  gap: 5rem;
 }
 @media (min-width: 37.4em) and (max-width: 47.85em) {
   .two_card_flex {
@@ -1523,28 +1570,50 @@ html {
 }
 @media (min-width: 45em) and (max-width: 49em) {
   .two_card_flex {
-    width: 55rem;
-    margin: 4rem 2rem 0 4rem;
+    width: 60rem;
   }
 }
-@media (min-width: 40em) and (max-width: 45em) {
-  .two_card_flex {
-    width: 55rem;
-  }
-}
-@media (min-width: 44em) and (max-width: 50em) {
-  .two_card_flex {
-    width: 80rem;
-  }
-}
-@media (min-width: 40rem) and (max-width: 44em) {
-  .two_card_flex {
-    width: 70rem;
-  }
-}
-@media (min-width: 36rem) and (max-width: 40em) {
+@media (min-width: 37em) and (max-width: 42em) {
   .two_card_flex {
     width: 60rem;
+  }
+}
+@media (min-width: 20em) and (max-width: 25em) {
+  .two_card_flex {
+    width: 39rem;
+  }
+}
+@media (min-width: 55em) and (max-width: 60em) {
+  .two_card_flex {
+    width: 50rem;
+    margin-left: 5rem;
+  }
+}
+@media (min-width: 50em) and (max-width: 55em) {
+  .two_card_flex {
+    width: 48rem;
+    margin-left: 8rem;
+  }
+}
+@media (min-width: 47em) and (max-width: 50em) {
+  .two_card_flex {
+    width: 72em;
+  }
+}
+@media (min-width: 40em) and (max-width: 47em) {
+  .two_card_flex {
+    width: 65rem;
+  }
+}
+@media (min-width: 33rem) and (max-width: 43em) {
+  .two_card_flex {
+    margin-left: 1rem;
+  }
+}
+@media (min-width: 20rem) and (max-width: 25em) {
+  .two_card_flex {
+    width: 45rem;
+    margin-left: 4rem;
   }
 }
 
@@ -1628,6 +1697,16 @@ html {
   text-align: right;
   margin: 1rem 1.7rem 1rem 0;
 }
+@media (min-width: 138em) and (max-width: 165em) {
+  .progress_status {
+    margin-right: 2rem;
+  }
+}
+@media (min-width: 88em) and (max-width: 125em) {
+  .progress_status {
+    margin-right: 4rem;
+  }
+}
 @media (min-width: 33em) and (max-width: 42em) {
   .progress_status {
     margin-right: 10rem;
@@ -1638,19 +1717,29 @@ html {
     margin-right: 4rem;
   }
 }
-@media (min-width: 34em) and (max-width: 37em) {
+@media (min-width: 37em) and (max-width: 49em) {
+  .progress_status {
+    margin-right: 3rem;
+  }
+}
+@media (min-width: 26em) and (max-width: 37em) {
+  .progress_status {
+    margin-right: 1rem;
+  }
+}
+@media (min-width: 30em) and (max-width: 36em) {
   .progress_status {
     margin-right: 2rem;
   }
 }
-@media (min-width: 26em) and (max-width: 31em) {
+@media (min-width: 26em) and (max-width: 30em) {
   .progress_status {
-    margin-right: 3rem;
+    margin-right: 1rem;
   }
 }
-@media (min-width: 16em) and (max-width: 22em) {
+@media (min-width: 20em) and (max-width: 22em) {
   .progress_status {
-    margin-right: 3rem;
+    margin-right: 1rem;
   }
 }
 
@@ -1862,6 +1951,16 @@ html {
     margin-left: 3rem;
   }
 }
+@media (min-width: 20em) and (max-width: 25em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    width: 90rem;
+  }
+}
 
 .bellsection {
   position: relative;
@@ -1891,7 +1990,7 @@ html {
   position: relative;
   margin-left: 0;
 }
-@media (min-width: 13em) and (max-width: 27em) {
+@media (min-width: 13em) and (max-width: 47em) {
   .searchbar {
     margin-top: 10rem;
     margin-left: -20rem;
@@ -2019,7 +2118,6 @@ html {
   transition: all 0.3s ease;
 }
 .bodysection__heading:hover {
-  transform: scale(1.1);
   cursor: pointer;
 }
 .bodysection__date {
@@ -2030,7 +2128,6 @@ html {
   margin-right: 7rem;
 }
 .bodysection__date:hover {
-  transform: scale(1.1);
   cursor: pointer;
 }
 
@@ -2062,6 +2159,15 @@ html {
   justify-content: space-between;
   align-items: center;
   margin-right: 3rem;
+}
+
+.back_bg {
+  background-color: rgba(0, 0, 0, 0.445);
+  color: rgb(255, 255, 255);
+  width: 2.3rem;
+  height: 2.3rem;
+  padding: 1rem;
+  border-radius: 50%;
 }
 
 .icons {
@@ -2232,86 +2338,21 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 35.2rem;
+  width: 27vw;
 }
-@media (min-width: 142em) and (max-width: 165em) {
+@media (min-width: 88em) and (max-width: 125em) {
   .smallcards__iconflex {
-    width: 35rem;
+    width: 29vw;
   }
 }
-@media (min-width: 117em) and (max-width: 125em) {
+@media (min-width: 34em) and (max-width: 50em) {
   .smallcards__iconflex {
-    width: 55rem;
+    width: 75vw;
   }
 }
-@media (min-width: 107em) and (max-width: 117em) {
+@media (min-width: 21em) and (max-width: 34em) {
   .smallcards__iconflex {
-    width: 53rem;
-  }
-}
-@media (min-width: 97em) and (max-width: 107em) {
-  .smallcards__iconflex {
-    width: 45rem;
-  }
-}
-@media (min-width: 87em) and (max-width: 97em) {
-  .smallcards__iconflex {
-    width: 42rem;
-  }
-}
-@media (min-width: 70em) and (max-width: 80rem) {
-  .smallcards__iconflex {
-    width: 30rem;
-  }
-}
-@media (min-width: 52em) and (max-width: 58rem) {
-  .smallcards__iconflex {
-    width: 40rem;
-  }
-}
-@media (min-width: 48em) and (max-width: 50rem) {
-  .smallcards__iconflex {
-    width: 88rem;
-  }
-}
-@media (min-width: 46em) and (max-width: 48rem) {
-  .smallcards__iconflex {
-    width: 84rem;
-  }
-}
-@media (min-width: 44em) and (max-width: 46rem) {
-  .smallcards__iconflex {
-    width: 80rem;
-  }
-}
-@media (min-width: 42em) and (max-width: 44rem) {
-  .smallcards__iconflex {
-    width: 75rem;
-  }
-}
-@media (min-width: 38em) and (max-width: 41rem) {
-  .smallcards__iconflex {
-    width: 70rem;
-  }
-}
-@media (min-width: 34em) and (max-width: 38rem) {
-  .smallcards__iconflex {
-    width: 75rem;
-  }
-}
-@media (min-width: 30em) and (max-width: 34rem) {
-  .smallcards__iconflex {
-    width: 70rem;
-  }
-}
-@media (min-width: 25em) and (max-width: 30rem) {
-  .smallcards__iconflex {
-    width: 55rem;
-  }
-}
-@media (min-width: 20em) and (max-width: 25em) {
-  .smallcards__iconflex {
-    width: 50rem;
+    width: 75vw;
   }
 }
 .smallcards__name {
@@ -2347,7 +2388,7 @@ html {
 
 .col_1 {
   overflow: auto;
-  height: 100rem;
+  height: 92rem;
   filter: none;
 }
 
@@ -2356,6 +2397,7 @@ html {
   color: white;
   background-color: #ffffff;
   border-radius: 7%;
+  width: 57vw;
   overflow: auto;
   filter: none;
 }

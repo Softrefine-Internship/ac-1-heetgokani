@@ -65,7 +65,6 @@
     font-family: "poppins";
     transition: all 0.3s ease;
     &:hover {
-      transform: scale(1.1);
       cursor: pointer;
     }
   }
@@ -76,7 +75,6 @@
     transition: all 0.3s ease;
     margin-right: 7rem;
     &:hover {
-      transform: scale(1.1);
       cursor: pointer;
     }
   }
@@ -109,6 +107,14 @@
   justify-content: space-between;
   align-items: center;
   margin-right: 3rem;
+}
+.back_bg {
+  background-color: rgba(0, 0, 0, 0.445);
+  color: rgb(255, 255, 255);
+  width: 2.3rem;
+  height: 2.3rem;
+  padding: 1rem;
+  border-radius: 50%;
 }
 .icons {
   display: flex;
@@ -257,8 +263,6 @@
   }
   &__flex {
     display: flex;
-    @media (min-width: 0em) and (max-width: 62em) {
-    }
   }
   &__img {
     width: 4.8rem;
@@ -272,56 +276,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 35.2rem;
+    width: 27vw;
 
-    @media (min-width: 142em) and (max-width: 165em) {
-      width: 35rem;
+    @media (min-width: 88em) and (max-width: 125em) {
+      width: 29vw;
     }
-
-    @media (min-width: 117em) and (max-width: 125em) {
-      width: 55rem;
+    @media (min-width: 34em) and (max-width: 50em) {
+      width: 75vw;
     }
-    @media (min-width: 107em) and (max-width: 117em) {
-      width: 53rem;
-    }
-    @media (min-width: 97em) and (max-width: 107em) {
-      width: 45rem;
-    }
-    @media (min-width: 87em) and (max-width: 97em) {
-      width: 42rem;
-    }
-    @media (min-width: 70em) and (max-width: 80rem) {
-      width: 30rem;
-    }
-    @media (min-width: 52em) and (max-width: 58rem) {
-      width: 40rem;
-    }
-    @media (min-width: 48em) and (max-width: 50rem) {
-      width: 88rem;
-    }
-    @media (min-width: 46em) and (max-width: 48rem) {
-      width: 84rem;
-    }
-    @media (min-width: 44em) and (max-width: 46rem) {
-      width: 80rem;
-    }
-    @media (min-width: 42em) and (max-width: 44rem) {
-      width: 75rem;
-    }
-    @media (min-width: 38em) and (max-width: 41rem) {
-      width: 70rem;
-    }
-    @media (min-width: 34em) and (max-width: 38rem) {
-      width: 75rem;
-    }
-    @media (min-width: 30em) and (max-width: 34rem) {
-      width: 70rem;
-    }
-    @media (min-width: 25em) and (max-width: 30rem) {
-      width: 55rem;
-    }
-    @media (min-width: 20em) and (max-width: 25em) {
-      width: 50rem;
+    @media (min-width: 21em) and (max-width: 34em) {
+      width: 75vw;
     }
   }
 
@@ -361,7 +325,7 @@
 
 .col_1 {
   overflow: auto;
-  height: 100rem;
+  height: 92rem;
   filter: none;
 }
 
@@ -370,6 +334,7 @@
   color: white;
   background-color: $white_color;
   border-radius: 7%;
+  width: 57vw;
   overflow: auto;
   filter: none;
   &::-webkit-scrollbar {
