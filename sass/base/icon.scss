@@ -36,6 +36,7 @@
     padding: 1.5rem;
     transition: all 0.4s ease;
     border-radius: 50%;
+    z-index: 9999;
     @media (min-width: 46em) and (max-width: 61em) {
       width: 2.5rem;
       height: 2.5rem;
@@ -62,6 +63,13 @@
       padding: 1.3rem;
       margin-top: 0.5rem;
       margin-left: 1.5rem;
+    }
+
+    @media (min-width: 27em) and (max-width: 31em) {
+      padding: 1rem;
+    }
+    @media (min-width: 20em) and (max-width: 27em) {
+      padding: 1rem;
     }
 
     &:hover {

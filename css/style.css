@@ -89,6 +89,7 @@ html {
   padding: 1.5rem;
   transition: all 0.4s ease;
   border-radius: 50%;
+  z-index: 9999;
 }
 @media (min-width: 46em) and (max-width: 61em) {
   .icon__flex--icons {
@@ -122,6 +123,16 @@ html {
     padding: 1.3rem;
     margin-top: 0.5rem;
     margin-left: 1.5rem;
+  }
+}
+@media (min-width: 27em) and (max-width: 31em) {
+  .icon__flex--icons {
+    padding: 1rem;
+  }
+}
+@media (min-width: 20em) and (max-width: 27em) {
+  .icon__flex--icons {
+    padding: 1rem;
   }
 }
 .icon__flex--icons:hover {
@@ -1631,6 +1642,32 @@ html {
   margin: 1rem 2rem -0.5rem 1.7rem;
 }
 
+.black-background {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 2.3rem;
+  height: 2.3rem;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.black-background {
+  color: white;
+}
+
+#msgIcon.black-background {
+  color: white;
+}
+
+.hide-bg #homeboxIcon {
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
+
 .progress_bar {
   width: 85%;
   margin: 1rem 1.5rem 0 1.7rem;
@@ -2059,6 +2096,11 @@ html {
   height: 1.5rem;
   width: 2rem;
 }
+@media (min-width: 8em) and (max-width: 47em) {
+  .searchbar__icon {
+    left: 8%;
+  }
+}
 
 .header__flex {
   margin: 2rem 3rem;
@@ -2195,6 +2237,11 @@ html {
   height: 0.8rem;
   margin: 0 2rem;
 }
+@media (min-width: 13em) and (max-width: 23em) {
+  .boxes__icon {
+    margin: 0 1.2rem;
+  }
+}
 
 .in_projects_section {
   display: flex;
@@ -2293,6 +2340,10 @@ html {
   height: 1.8rem;
   color: #151522;
   margin: 0 1.9rem 1rem 0;
+}
+
+.searchicon:hover {
+  cursor: pointer;
 }
 
 .in_projects_section_flex {
@@ -2432,6 +2483,12 @@ html {
   height: 92rem;
   filter: none;
 }
+@media (max-width: 800px) {
+  .col_1 {
+    width: 9vw;
+    overflow-x: hidden;
+  }
+}
 
 .col_2 {
   height: 100vh;
@@ -2468,6 +2525,7 @@ html {
   .col_3 {
     width: 91vw;
     font-size: 100%;
+    margin-left: 2rem;
   }
 }
 

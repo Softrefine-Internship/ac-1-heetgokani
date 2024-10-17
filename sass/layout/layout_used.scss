@@ -99,6 +99,9 @@
     width: 0.8rem;
     height: 0.8rem;
     margin: 0 2rem;
+    @media (min-width: 13em) and (max-width: 23em) {
+      margin: 0 1.2rem;
+    }
   }
 }
 .in_projects_section {
@@ -193,6 +196,9 @@
     color: $black_color;
     margin: 0 1.9rem 1rem 0;
   }
+}
+.searchicon:hover {
+  cursor: pointer;
 }
 .in_projects_section_flex {
   display: flex;
@@ -326,6 +332,10 @@
   overflow: auto;
   height: 92rem;
   filter: none;
+  @media (max-width: 800px) {
+    width: 9vw;
+    overflow-x: hidden;
+  }
 }
 
 .col_2 {
@@ -337,6 +347,7 @@
   overflow: auto;
   overflow-x: hidden;
   filter: none;
+
   &::-webkit-scrollbar {
     display: none;
   }
@@ -362,5 +373,6 @@
   .col_3 {
     width: 91vw;
     font-size: 100%;
+    margin-left: 2rem;
   }
 }

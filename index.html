@@ -77,6 +77,7 @@
           <div class="col_1">
             <section class="icon__flex">
               <ion-icon
+                id="homeboxIcon"
                 class="icon__flex--icons"
                 name="home-outline"
               ></ion-icon>
@@ -681,18 +682,30 @@
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const msgIcon = document.getElementById("msgIcon");
+        const homeboxIcon = document.getElementById("homeboxIcon");
+        const iconColumnFlex = document.querySelector(".icon__flex");
         const col = document.getElementById("col");
 
-        if (msgIcon && col) {
-          msgIcon.addEventListener("click", function () {
-            if (window.innerWidth < 800) {
-              console.log("clicked");
-              col.classList.toggle("hide");
-              msgIcon.classList.toggle("back_bg");
+        if (msgIcon && col && homeboxIcon && iconColumnFlex) {
+          msgIcon.addEventListener("click", function handleMsgClick() {
+            if (window.innerWidth < 799) {
+              console.log("Message Icon clicked");
+              col.classList.add("hidden");
+              msgIcon.classList.add("black-background");
+              iconColumnFlex.classList.add("hide-bg");
+            }
+          });
+
+          homeboxIcon.addEventListener("click", function handleHomeboxClick() {
+            if (window.innerWidth < 799) {
+              console.log("Homebox clicked");
+              col.classList.remove("hidden");
+              msgIcon.classList.remove("black-background");
+              iconColumnFlex.classList.toggle("hide-bg");
             }
           });
         } else {
-          console.error("not found");
+          console.error("Element not found");
         }
       });
     </script>
