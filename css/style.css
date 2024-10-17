@@ -467,7 +467,7 @@ html {
 }
 @media (min-width: 85em) and (max-width: 124em) {
   .card_1::after {
-    margin: 0 0 0 4.2rem;
+    margin-left: 5.2rem;
   }
 }
 @media (min-width: 37em) and (max-width: 48em) {
@@ -659,7 +659,7 @@ html {
 }
 @media (min-width: 85em) and (max-width: 124em) {
   .card_2::after {
-    margin: 0 0 0 4.2rem;
+    margin-left: 5.2rem;
   }
 }
 @media (min-width: 37em) and (max-width: 48em) {
@@ -853,7 +853,7 @@ html {
 }
 @media (min-width: 85em) and (max-width: 124em) {
   .card_3::after {
-    margin: 0 0 0 4.2rem;
+    margin-left: 5.2rem;
   }
 }
 @media (min-width: 37em) and (max-width: 48em) {
@@ -1049,7 +1049,7 @@ html {
 }
 @media (min-width: 85em) and (max-width: 124em) {
   .card_4::after {
-    margin: 0 0 0 4.2rem;
+    margin-left: 5.2rem;
   }
 }
 @media (min-width: 37em) and (max-width: 48em) {
@@ -1245,7 +1245,7 @@ html {
 }
 @media (min-width: 85em) and (max-width: 124em) {
   .card_5::after {
-    margin: 0 0 0 4.2rem;
+    margin-left: 5.2rem;
   }
 }
 @media (min-width: 37em) and (max-width: 48em) {
@@ -1441,7 +1441,7 @@ html {
 }
 @media (min-width: 85em) and (max-width: 124em) {
   .card_6::after {
-    margin: 0 0 0 4.2rem;
+    margin-left: 5.2rem;
   }
 }
 @media (min-width: 37em) and (max-width: 48em) {
@@ -1560,7 +1560,7 @@ html {
 }
 @media (min-width: 37.4em) and (max-width: 47.85em) {
   .two_card_flex {
-    width: 50rem;
+    width: 30rem;
   }
 }
 @media (min-width: 25em) and (max-width: 37.3em) {
@@ -1810,25 +1810,47 @@ html {
     width: 30rem;
   }
 }
-@media (min-width: 98em) and (max-width: 125em) {
+@media (min-width: 115em) and (max-width: 125em) {
   .card_1,
   .card_2,
   .card_3,
   .card_4,
   .card_5,
   .card_6 {
-    margin: 0 2rem;
-    width: 50rem;
+    margin: 0 0rem 0 5rem;
+    width: 40rem;
   }
 }
-@media (min-width: 87em) and (max-width: 99em) {
+@media (min-width: 101em) and (max-width: 115em) {
   .card_1,
   .card_2,
   .card_3,
   .card_4,
   .card_5,
   .card_6 {
+    margin: 0 0 0 4rem;
     width: 35rem;
+  }
+}
+@media (min-width: 99em) and (max-width: 101em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    margin: 0 2rem 0 4rem;
+  }
+}
+@media (min-width: 80em) and (max-width: 99em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    width: 40rem;
+    margin-left: 4rem;
   }
 }
 @media (min-width: 62em) and (max-width: 68em) {
@@ -1959,6 +1981,26 @@ html {
   .card_5,
   .card_6 {
     width: 90rem;
+  }
+}
+@media (min-width: 82em) and (max-width: 91em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    margin: 0 2rem;
+  }
+}
+@media (min-width: 49.9em) and (max-width: 53em) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    margin-left: -2rem;
   }
 }
 
@@ -2198,7 +2240,7 @@ html {
 
 .three_small_line {
   color: #151522;
-  margin: 0 0 1rem 0rem;
+  margin: 0 0 0 0rem;
   width: 2rem;
   height: 2rem;
 }
@@ -2298,7 +2340,6 @@ html {
   border-bottom: 1px solid rgba(128, 128, 128, 0.623);
   transition: all 0.3s ease-in;
   padding: 0.5rem 0;
-  width: 100vw;
 }
 @media (min-width: 100em) and (max-width: 124em) {
   .smallcards {
@@ -2399,6 +2440,7 @@ html {
   border-radius: 7%;
   width: 57vw;
   overflow: auto;
+  overflow-x: hidden;
   filter: none;
 }
 .col_2::-webkit-scrollbar {

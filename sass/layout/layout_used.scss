@@ -144,7 +144,7 @@
 
 .three_small_line {
   color: $black_color;
-  margin: 0 0 1rem 0rem;
+  margin: 0 0 0 0rem;
   width: 2rem;
   height: 2rem;
 }
@@ -234,7 +234,6 @@
   border-bottom: 1px solid rgba(128, 128, 128, 0.623);
   transition: all 0.3s ease-in;
   padding: 0.5rem 0;
-  width: 100vw;
 
   @include responsive(mobile) {
   }
@@ -336,6 +335,7 @@
   border-radius: 7%;
   width: 57vw;
   overflow: auto;
+  overflow-x: hidden;
   filter: none;
   &::-webkit-scrollbar {
     display: none;
@@ -343,7 +343,6 @@
 
   @media (max-width: 800px) {
     height: 100vh;
-
     width: 91vw;
     margin-left: 2rem;
     padding-bottom: 0;
