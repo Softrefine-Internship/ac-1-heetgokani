@@ -2773,6 +2773,11 @@ body {
     width: 75vw;
   }
 }
+@media (min-width: 320px) and (max-width: 455px) {
+  .smallcards__iconflex {
+    width: 70vw;
+  }
+}
 .smallcards__name {
   font-size: 1.5rem;
   font-family: "poppins";
@@ -2860,6 +2865,11 @@ body {
   .icon__flex {
     margin: 3rem 0 0 0;
     align-items: center;
+  }
+}
+@media (max-width: 455px) {
+  .twodoticonfooter {
+    margin-right: 4rem;
   }
 }
 

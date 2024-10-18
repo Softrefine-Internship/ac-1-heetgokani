@@ -295,6 +295,9 @@
     @media (min-width: 21em) and (max-width: 34em) {
       width: 75vw;
     }
+    @media (min-width: 320px) and (max-width: 455px) {
+      width: 70vw;
+    }
   }
 
   &__name {
@@ -385,5 +388,11 @@
   .icon__flex {
     margin: 3rem 0 0 0;
     align-items: center;
+  }
+}
+
+.twodoticonfooter {
+  @media (max-width: 455px) {
+    margin-right: 4rem;
   }
 }
