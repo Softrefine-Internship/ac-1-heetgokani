@@ -47,12 +47,60 @@ html {
     font-size: 37%;
   }
 }
+@media (min-width: 1322px) and (max-width: 2000px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollable {
+  overflow: scroll;
+}
 
 .three_big_line_icon {
   width: 5rem;
   height: 4rem;
   margin: 0 0 0 0.3rem;
   transition: all 0.3s ease-in;
+}
+@media (min-width: 970px) and (max-width: 1087px) {
+  .three_big_line_icon {
+    margin: 0 0 0 1rem;
+  }
+}
+@media (min-width: 767px) and (max-width: 860px) {
+  .three_big_line_icon {
+    margin: 0 0 0 -0.1rem;
+  }
+}
+@media (min-width: 641px) and (max-width: 703px) {
+  .three_big_line_icon {
+    margin: 0 0 0 -1rem;
+  }
+}
+@media (min-width: 550px) and (max-width: 637px) {
+  .three_big_line_icon {
+    margin: 0 0 0 -1rem;
+  }
+}
+@media (min-width: 421px) and (max-width: 550px) {
+  .three_big_line_icon {
+    margin: 0 0 0 -1rem;
+  }
 }
 
 .three_big_line_icon:hover {
@@ -132,6 +180,57 @@ html {
 }
 @media (min-width: 20em) and (max-width: 27em) {
   .icon__flex--icons {
+    padding: 1rem;
+  }
+}
+@media (min-width: 977px) and (max-width: 1087px) {
+  .icon__flex--icons {
+    width: 3rem;
+    height: 3rem;
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 785px) and (max-width: 799px) {
+  .icon__flex--icons {
+    width: 3rem;
+    height: 3rem;
+    margin-top: 1rem;
+    margin-right: -1.5rem;
+  }
+}
+@media (min-width: 604px) and (max-width: 655px) {
+  .icon__flex--icons {
+    margin-left: 1.5rem;
+    padding: 1.1rem;
+  }
+}
+@media (min-width: 545px) and (max-width: 604px) {
+  .icon__flex--icons {
+    margin-left: 2.2rem;
+    padding: 1.1rem;
+  }
+}
+@media (min-width: 500px) and (max-width: 543px) {
+  .icon__flex--icons {
+    margin-left: 2.5rem;
+  }
+}
+@media (min-width: 400px) and (max-width: 447px) {
+  .icon__flex--icons {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+@media (min-width: 345px) and (max-width: 400px) {
+  .icon__flex--icons {
+    width: 3.4rem;
+    height: 3.4rem;
+  }
+}
+@media (min-width: 320px) and (max-width: 345px) {
+  .icon__flex--icons {
+    width: 2.7rem;
+    height: 2.7rem;
     padding: 1rem;
   }
 }
@@ -451,6 +550,11 @@ html {
     margin: 0 0 0 3rem;
   }
 }
+@media (min-width: 300px) and (max-width: 400px) {
+  .card_1::before {
+    margin: 0 0 0 3.2rem;
+  }
+}
 .card_1::after {
   content: "";
   position: absolute;
@@ -494,6 +598,16 @@ html {
 @media (min-width: 36em) and (max-width: 48em) {
   .card_1::after {
     margin: 0 0 0 5rem;
+  }
+}
+@media (min-width: 1378px) and (max-width: 1507px) {
+  .card_1::after {
+    margin: 0 0 0 4.5rem;
+  }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  .card_1::after {
+    margin: 0 0 0 6rem;
   }
 }
 
@@ -648,6 +762,11 @@ html {
     margin: 0 0 0 3rem;
   }
 }
+@media (min-width: 300px) and (max-width: 400px) {
+  .card_2::before {
+    margin: 0 0 0 3.2rem;
+  }
+}
 .card_2::after {
   content: "";
   position: absolute;
@@ -686,6 +805,16 @@ html {
 @media (min-width: 36em) and (max-width: 48em) {
   .card_2::after {
     margin: 0 0 0 5rem;
+  }
+}
+@media (min-width: 1378px) and (max-width: 1507px) {
+  .card_2::after {
+    margin: 0 0 0 4.5rem;
+  }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  .card_2::after {
+    margin: 0 0 0 6rem;
   }
 }
 
@@ -842,6 +971,11 @@ html {
     margin: 0 0 0 3rem;
   }
 }
+@media (min-width: 300px) and (max-width: 400px) {
+  .card_3::before {
+    margin: 0 0 0 3.2rem;
+  }
+}
 .card_3::after {
   content: "";
   position: absolute;
@@ -880,6 +1014,16 @@ html {
 @media (min-width: 36em) and (max-width: 48em) {
   .card_3::after {
     margin: 0 0 0 5rem;
+  }
+}
+@media (min-width: 1378px) and (max-width: 1507px) {
+  .card_3::after {
+    margin: 0 0 0 4.5rem;
+  }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  .card_3::after {
+    margin: 0 0 0 6rem;
   }
 }
 
@@ -1038,6 +1182,11 @@ html {
     margin: 0 0 0 3rem;
   }
 }
+@media (min-width: 300px) and (max-width: 400px) {
+  .card_4::before {
+    margin: 0 0 0 3.2rem;
+  }
+}
 .card_4::after {
   content: "";
   position: absolute;
@@ -1076,6 +1225,16 @@ html {
 @media (min-width: 36em) and (max-width: 48em) {
   .card_4::after {
     margin: 0 0 0 5rem;
+  }
+}
+@media (min-width: 1378px) and (max-width: 1507px) {
+  .card_4::after {
+    margin: 0 0 0 4.5rem;
+  }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  .card_4::after {
+    margin: 0 0 0 6rem;
   }
 }
 
@@ -1234,6 +1393,11 @@ html {
     margin: 0 0 0 3rem;
   }
 }
+@media (min-width: 300px) and (max-width: 400px) {
+  .card_5::before {
+    margin: 0 0 0 3.2rem;
+  }
+}
 .card_5::after {
   content: "";
   position: absolute;
@@ -1272,6 +1436,16 @@ html {
 @media (min-width: 36em) and (max-width: 48em) {
   .card_5::after {
     margin: 0 0 0 5rem;
+  }
+}
+@media (min-width: 1378px) and (max-width: 1507px) {
+  .card_5 {
+    margin: 0 0 0 4.5rem;
+  }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  .card_5 {
+    margin: 0 0 0 6rem;
   }
 }
 
@@ -1430,6 +1604,11 @@ html {
     margin: 0 0 0 3rem;
   }
 }
+@media (min-width: 300px) and (max-width: 400px) {
+  .card_6::before {
+    margin: 0 0 0 3.2rem;
+  }
+}
 .card_6::after {
   content: "";
   position: absolute;
@@ -1468,6 +1647,16 @@ html {
 @media (min-width: 36em) and (max-width: 48em) {
   .card_6::after {
     margin: 0 0 0 5rem;
+  }
+}
+@media (min-width: 1378px) and (max-width: 1507px) {
+  .card_6::after {
+    margin: 0 0 0 4.5rem;
+  }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  .card_6::after {
+    margin: 0 0 0 6rem;
   }
 }
 
@@ -1627,6 +1816,11 @@ html {
     margin-left: 4rem;
   }
 }
+@media (max-width: 400px) {
+  .two_card_flex {
+    flex-direction: column;
+  }
+}
 
 .cardinfo_flex {
   display: flex;
@@ -1657,6 +1851,8 @@ html {
 
 #msgIcon.black-background {
   color: white;
+  height: 3.4rem;
+  width: 3.4rem;
 }
 
 .hide-bg #homeboxIcon {
@@ -2040,6 +2236,135 @@ html {
     margin-left: -2rem;
   }
 }
+@media (min-width: 1190px) and (max-width: 1999px) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    margin-left: -2rem;
+  }
+}
+@media (min-width: 1185px) and (max-width: 1196px) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    margin-left: 1rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1276px) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    margin-left: 0.1rem;
+  }
+}
+@media (min-width: 977px) and (max-width: 991px) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    margin-left: 0.5rem;
+  }
+}
+@media (min-width: 799px) and (max-width: 960px) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    margin-left: -1.2rem;
+  }
+}
+@media (min-width: 884px) and (max-width: 961px) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    margin-right: -2rem;
+    margin-left: 0.9rem;
+  }
+}
+@media (min-width: 1150px) and (max-width: 1196px) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    margin-left: 1rem;
+  }
+}
+@media (min-width: 900px) and (max-width: 991px) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    margin-left: 1rem;
+  }
+}
+@media (min-width: 800px) and (max-width: 853px) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    margin-left: -2rem;
+    width: 35rem;
+  }
+}
+@media (min-width: 636px) and (max-width: 658px) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    margin-left: -2rem;
+    width: 30rem;
+  }
+}
+@media (min-width: 600px) and (max-width: 612px) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    margin-left: -2rem;
+  }
+}
+@media (max-width: 400px) {
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6 {
+    width: 35rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .card_5 {
+    display: none;
+  }
+}
 
 .bellsection {
   position: relative;
@@ -2248,6 +2573,7 @@ html {
   justify-content: space-between;
   align-items: center;
   margin-right: 3rem;
+  padding-bottom: 1.2rem;
 }
 
 .back_bg {
@@ -2477,6 +2803,11 @@ html {
   display: grid;
   grid-template-columns: 8% 57% 35%;
 }
+@media (max-width: 500px) {
+  .sub_container_grid {
+    grid-template-columns: 10% 1fr 35%;
+  }
+}
 
 .col_1 {
   overflow: auto;
@@ -2485,7 +2816,6 @@ html {
 }
 @media (max-width: 800px) {
   .col_1 {
-    width: 9vw;
     overflow-x: hidden;
   }
 }
@@ -2526,6 +2856,10 @@ html {
     width: 91vw;
     font-size: 100%;
     margin-left: 2rem;
+  }
+  .icon__flex {
+    margin: 3rem 0 0 0;
+    align-items: center;
   }
 }
 

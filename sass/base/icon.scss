@@ -3,6 +3,21 @@
   height: 4rem;
   margin: 0 0 0 0.3rem;
   transition: all 0.3s ease-in;
+  @media (min-width: 970px) and (max-width: 1087px) {
+    margin: 0 0 0 1rem;
+  }
+  @media (min-width: 767px) and (max-width: 860px) {
+    margin: 0 0 0 -0.1rem;
+  }
+  @media (min-width: 641px) and (max-width: 703px) {
+    margin: 0 0 0 -1rem;
+  }
+  @media (min-width: 550px) and (max-width: 637px) {
+    margin: 0 0 0 -1rem;
+  }
+  @media (min-width: 421px) and (max-width: 550px) {
+    margin: 0 0 0 -1rem;
+  }
 }
 .three_big_line_icon:hover {
   transform: rotate(360deg);
@@ -71,7 +86,42 @@
     @media (min-width: 20em) and (max-width: 27em) {
       padding: 1rem;
     }
+    @media (min-width: 977px) and (max-width: 1087px) {
+      width: 3rem;
+      height: 3rem;
+      margin-top: 1rem;
+    }
+    @media (min-width: 785px) and (max-width: 799px) {
+      width: 3rem;
+      height: 3rem;
+      margin-top: 1rem;
+      margin-right: -1.5rem;
+    }
 
+    @media (min-width: 604px) and (max-width: 655px) {
+      margin-left: 1.5rem;
+      padding: 1.1rem;
+    }
+    @media (min-width: 545px) and (max-width: 604px) {
+      margin-left: 2.2rem;
+      padding: 1.1rem;
+    }
+    @media (min-width: 500px) and (max-width: 543px) {
+      margin-left: 2.5rem;
+    }
+    @media (min-width: 400px) and (max-width: 447px) {
+      width: 4rem;
+      height: 4rem;
+    }
+    @media (min-width: 345px) and (max-width: 400px) {
+      width: 3.4rem;
+      height: 3.4rem;
+    }
+    @media (min-width: 320px) and (max-width: 345px) {
+      width: 2.7rem;
+      height: 2.7rem;
+      padding: 1rem;
+    }
     &:hover {
       background-color: $black_color;
       cursor: pointer;

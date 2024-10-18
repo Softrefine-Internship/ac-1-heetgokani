@@ -133,6 +133,10 @@
     @media (min-width: 36em) and (max-width: 48em) {
       margin: 0 0 0 3rem;
     }
+
+    @media (min-width: 300px) and (max-width: 400px) {
+      margin: 0 0 0 3.2rem;
+    }
   }
 
   &::after {
@@ -167,6 +171,12 @@
     }
     @media (min-width: 36em) and (max-width: 48em) {
       margin: 0 0 0 5rem;
+    }
+    @media (min-width: 1378px) and (max-width: 1507px) {
+      margin: 0 0 0 4.5rem;
+    }
+    @media (min-width: 300px) and (max-width: 400px) {
+      margin: 0 0 0 6rem;
     }
   }
 }
@@ -309,6 +319,10 @@
     @media (min-width: 36em) and (max-width: 48em) {
       margin: 0 0 0 3rem;
     }
+
+    @media (min-width: 300px) and (max-width: 400px) {
+      margin: 0 0 0 3.2rem;
+    }
   }
 
   &::after {
@@ -339,6 +353,12 @@
     }
     @media (min-width: 36em) and (max-width: 48em) {
       margin: 0 0 0 5rem;
+    }
+    @media (min-width: 1378px) and (max-width: 1507px) {
+      margin: 0 0 0 4.5rem;
+    }
+    @media (min-width: 300px) and (max-width: 400px) {
+      margin: 0 0 0 6rem;
     }
   }
 }
@@ -486,6 +506,10 @@
     @media (min-width: 36em) and (max-width: 48em) {
       margin: 0 0 0 3rem;
     }
+
+    @media (min-width: 300px) and (max-width: 400px) {
+      margin: 0 0 0 3.2rem;
+    }
   }
 
   &::after {
@@ -516,6 +540,12 @@
     }
     @media (min-width: 36em) and (max-width: 48em) {
       margin: 0 0 0 5rem;
+    }
+    @media (min-width: 1378px) and (max-width: 1507px) {
+      margin: 0 0 0 4.5rem;
+    }
+    @media (min-width: 300px) and (max-width: 400px) {
+      margin: 0 0 0 6rem;
     }
   }
 }
@@ -663,6 +693,10 @@
     @media (min-width: 36em) and (max-width: 48em) {
       margin: 0 0 0 3rem;
     }
+
+    @media (min-width: 300px) and (max-width: 400px) {
+      margin: 0 0 0 3.2rem;
+    }
   }
 
   &::after {
@@ -693,6 +727,12 @@
     }
     @media (min-width: 36em) and (max-width: 48em) {
       margin: 0 0 0 5rem;
+    }
+    @media (min-width: 1378px) and (max-width: 1507px) {
+      margin: 0 0 0 4.5rem;
+    }
+    @media (min-width: 300px) and (max-width: 400px) {
+      margin: 0 0 0 6rem;
     }
   }
 }
@@ -840,6 +880,10 @@
     @media (min-width: 36em) and (max-width: 48em) {
       margin: 0 0 0 3rem;
     }
+
+    @media (min-width: 300px) and (max-width: 400px) {
+      margin: 0 0 0 3.2rem;
+    }
   }
 
   &::after {
@@ -872,6 +916,12 @@
     @media (min-width: 36em) and (max-width: 48em) {
       margin: 0 0 0 5rem;
     }
+  }
+  @media (min-width: 1378px) and (max-width: 1507px) {
+    margin: 0 0 0 4.5rem;
+  }
+  @media (min-width: 300px) and (max-width: 400px) {
+    margin: 0 0 0 6rem;
   }
 }
 
@@ -1017,6 +1067,10 @@
     @media (min-width: 36em) and (max-width: 48em) {
       margin: 0 0 0 3rem;
     }
+
+    @media (min-width: 300px) and (max-width: 400px) {
+      margin: 0 0 0 3.2rem;
+    }
   }
 
   &::after {
@@ -1047,6 +1101,12 @@
     }
     @media (min-width: 36em) and (max-width: 48em) {
       margin: 0 0 0 5rem;
+    }
+    @media (min-width: 1378px) and (max-width: 1507px) {
+      margin: 0 0 0 4.5rem;
+    }
+    @media (min-width: 300px) and (max-width: 400px) {
+      margin: 0 0 0 6rem;
     }
   }
 }
@@ -1173,6 +1233,9 @@
     width: 45rem;
     margin-left: 4rem;
   }
+  @media (max-width: 400px) {
+    flex-direction: column;
+  }
 }
 .cardinfo_flex {
   display: flex;
@@ -1201,6 +1264,8 @@
 
 #msgIcon.black-background {
   color: white;
+  height: 3.4rem;
+  width: 3.4rem;
 }
 
 .hide-bg #homeboxIcon {
@@ -1410,5 +1475,49 @@
   }
   @media (min-width: 49.9em) and (max-width: 53em) {
     margin-left: -2rem;
+  }
+  @media (min-width: 1190px) and (max-width: 1999px) {
+    margin-left: -2rem;
+  }
+  @media (min-width: 1185px) and (max-width: 1196px) {
+    margin-left: 1rem;
+  }
+  @media (min-width: 1200px) and (max-width: 1276px) {
+    margin-left: 0.1rem;
+  }
+  @media (min-width: 977px) and (max-width: 991px) {
+    margin-left: 0.5rem;
+  }
+  @media (min-width: 799px) and (max-width: 960px) {
+    margin-left: -1.2rem;
+  }
+  @media (min-width: 884px) and (max-width: 961px) {
+    margin-right: -2rem;
+    margin-left: 0.9rem;
+  }
+  @media (min-width: 1150px) and (max-width: 1196px) {
+    margin-left: 1rem;
+  }
+  @media (min-width: 900px) and (max-width: 991px) {
+    margin-left: 1rem;
+  }
+  @media (min-width: 800px) and (max-width: 853px) {
+    margin-left: -2rem;
+    width: 35rem;
+  }
+  @media (min-width: 636px) and (max-width: 658px) {
+    margin-left: -2rem;
+    width: 30rem;
+  }
+  @media (min-width: 600px) and (max-width: 612px) {
+    margin-left: -2rem;
+  }
+  @media (max-width: 400px) {
+    width: 35rem;
+  }
+}
+.card_5 {
+  @media (max-width: 400px) {
+    display: none;
   }
 }
