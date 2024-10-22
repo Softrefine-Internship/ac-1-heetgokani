@@ -2,11 +2,10 @@
   background-color: $main_container_bg_color;
   width: 100vw;
   height: 100vh;
-  @media (max-width: 599px) {
+  overflow-y: hidden;
+  @media (max-width: 799px) {
     overflow-y: visible;
     height: 100vh;
-  }
-  @media (min-width: 3em) and (max-width: 50em) {
-    height: 100vh;
+    margin: 0 0 0 0;
   }
 }

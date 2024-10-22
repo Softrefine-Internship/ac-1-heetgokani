@@ -1120,7 +1120,7 @@
 }
 
 .cards_section {
-  padding-bottom: 12rem;
+  padding-bottom: 3rem;
   @media (min-width: 34em) and (max-width: 43em) {
     margin: 0 0 0 5rem;
   }
@@ -1189,6 +1189,52 @@
     height: 1.8rem;
     width: 1.8rem;
     margin: 0 1.5rem 0 0;
+  }
+}
+.two_card_flex_first {
+  display: flex;
+  margin: 1rem 4rem 0 6rem;
+  align-items: center;
+  gap: 5rem;
+
+  @media (min-width: 37.4em) and (max-width: 47.85em) {
+    width: 30rem;
+  }
+  @media (min-width: 25em) and (max-width: 37.3em) {
+    margin-left: 4rem;
+  }
+  @media (min-width: 45em) and (max-width: 49em) {
+    width: 60rem;
+  }
+  @media (min-width: 37em) and (max-width: 42em) {
+    width: 60rem;
+  }
+  @media (min-width: 20em) and (max-width: 25em) {
+    width: 39rem;
+  }
+  @media (min-width: 55em) and (max-width: 60em) {
+    width: 50rem;
+    margin-left: 5rem;
+  }
+  @media (min-width: 50em) and (max-width: 55em) {
+    width: 48rem;
+    margin-left: 8rem;
+  }
+  @media (min-width: 47em) and (max-width: 50em) {
+    width: 72em;
+  }
+  @media (min-width: 40em) and (max-width: 47em) {
+    width: 65rem;
+  }
+  @media (min-width: 33rem) and (max-width: 43em) {
+    margin-left: 1rem;
+  }
+  @media (min-width: 20rem) and (max-width: 25em) {
+    width: 45rem;
+    margin-left: 4rem;
+  }
+  @media (max-width: 400px) {
+    flex-direction: column;
   }
 }
 .two_card_flex {
@@ -1519,5 +1565,11 @@
 .card_5 {
   @media (max-width: 400px) {
     display: none;
+  }
+}
+.hidden2 {
+  display: none;
+  .col_2 {
+    width: 120rem;
   }
 }

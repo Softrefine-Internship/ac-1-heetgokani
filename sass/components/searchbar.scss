@@ -1,6 +1,7 @@
 .searchbar {
   position: relative;
   margin-left: 0;
+
   @media (min-width: 13em) and (max-width: 47em) {
     margin-top: 10rem;
     margin-left: -20rem;
@@ -15,11 +16,19 @@
     padding: 1.8rem 3rem;
     border-radius: 5rem;
     border: none;
+    &:focus {
+      outline: 0.5px solid black;
+    }
     @media (min-width: 8em) and (max-width: 25em) {
       font-size: 2rem;
     }
+    @media (min-width: 545px) and (max-width: 737px) {
+      width: 50rem;
+    }
+    @media (min-width: 320px) and (max-width: 544px) {
+      width: 40rem;
+    }
   }
-
   &__icon {
     position: absolute;
     top: 30%;

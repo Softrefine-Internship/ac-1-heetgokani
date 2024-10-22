@@ -75,7 +75,6 @@ body {
   width: 5rem;
   height: 4rem;
   margin: 0 0 0 0.3rem;
-  transition: all 0.3s ease-in;
 }
 @media (min-width: 970px) and (max-width: 1087px) {
   .three_big_line_icon {
@@ -100,6 +99,26 @@ body {
 @media (min-width: 421px) and (max-width: 550px) {
   .three_big_line_icon {
     margin: 0 0 0 -1rem;
+  }
+}
+@media (min-width: 1552px) and (max-width: 1996px) {
+  .three_big_line_icon {
+    margin: 0 0 0 -1.5rem;
+  }
+}
+@media (min-width: 1993px) and (max-width: 2128px) {
+  .three_big_line_icon {
+    margin: 0 0 0 1.2rem;
+  }
+}
+@media (min-width: 634px) and (max-width: 752px) {
+  .three_big_line_icon {
+    margin: 0 0 0 -0.6rem;
+  }
+}
+@media (min-width: 300px) and (max-width: 389px) {
+  .three_big_line_icon {
+    margin: 0 0 0 -0.5rem;
   }
 }
 
@@ -254,16 +273,13 @@ body {
   background-color: #e9e7fd;
   width: 100vw;
   height: 100vh;
+  overflow-y: hidden;
 }
-@media (max-width: 599px) {
+@media (max-width: 799px) {
   .main__container {
     overflow-y: visible;
     height: 100vh;
-  }
-}
-@media (min-width: 3em) and (max-width: 50em) {
-  .main__container {
-    height: 100vh;
+    margin: 0 0 0 0;
   }
 }
 
@@ -274,13 +290,14 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  overflow-y: hidden;
 }
 @media (min-width: 3em) and (max-width: 50em) {
   .sub__container {
     height: 100vh;
   }
 }
-@media (max-width: 599px) {
+@media (max-width: 799px) {
   .sub__container {
     overflow-y: visible;
     height: 100vh;
@@ -1669,7 +1686,7 @@ body {
 }
 
 .cards_section {
-  padding-bottom: 12rem;
+  padding-bottom: 3rem;
 }
 @media (min-width: 34em) and (max-width: 43em) {
   .cards_section {
@@ -1750,6 +1767,76 @@ body {
   height: 1.8rem;
   width: 1.8rem;
   margin: 0 1.5rem 0 0;
+}
+
+.two_card_flex_first {
+  display: flex;
+  margin: 1rem 4rem 0 6rem;
+  align-items: center;
+  gap: 5rem;
+}
+@media (min-width: 37.4em) and (max-width: 47.85em) {
+  .two_card_flex_first {
+    width: 30rem;
+  }
+}
+@media (min-width: 25em) and (max-width: 37.3em) {
+  .two_card_flex_first {
+    margin-left: 4rem;
+  }
+}
+@media (min-width: 45em) and (max-width: 49em) {
+  .two_card_flex_first {
+    width: 60rem;
+  }
+}
+@media (min-width: 37em) and (max-width: 42em) {
+  .two_card_flex_first {
+    width: 60rem;
+  }
+}
+@media (min-width: 20em) and (max-width: 25em) {
+  .two_card_flex_first {
+    width: 39rem;
+  }
+}
+@media (min-width: 55em) and (max-width: 60em) {
+  .two_card_flex_first {
+    width: 50rem;
+    margin-left: 5rem;
+  }
+}
+@media (min-width: 50em) and (max-width: 55em) {
+  .two_card_flex_first {
+    width: 48rem;
+    margin-left: 8rem;
+  }
+}
+@media (min-width: 47em) and (max-width: 50em) {
+  .two_card_flex_first {
+    width: 72em;
+  }
+}
+@media (min-width: 40em) and (max-width: 47em) {
+  .two_card_flex_first {
+    width: 65rem;
+  }
+}
+@media (min-width: 33rem) and (max-width: 43em) {
+  .two_card_flex_first {
+    margin-left: 1rem;
+  }
+}
+@media (min-width: 20rem) and (max-width: 25em) {
+  .two_card_flex_first {
+    width: 45rem;
+    margin-left: 4rem;
+  }
+}
+@media (max-width: 400px) {
+  .two_card_flex_first {
+    flex-direction: column;
+  }
 }
 
 .two_card_flex {
@@ -2366,6 +2453,13 @@ body {
   }
 }
 
+.hidden2 {
+  display: none;
+}
+.hidden2 .col_2 {
+  width: 120rem;
+}
+
 .bellsection {
   position: relative;
 }
@@ -2409,9 +2503,22 @@ body {
   border-radius: 5rem;
   border: none;
 }
+.searchbar__element:focus {
+  outline: 0.5px solid black;
+}
 @media (min-width: 8em) and (max-width: 25em) {
   .searchbar__element {
     font-size: 2rem;
+  }
+}
+@media (min-width: 545px) and (max-width: 737px) {
+  .searchbar__element {
+    width: 50rem;
+  }
+}
+@media (min-width: 320px) and (max-width: 544px) {
+  .searchbar__element {
+    width: 40rem;
   }
 }
 .searchbar__icon {
@@ -2567,6 +2674,11 @@ body {
     margin: 0 1.2rem;
   }
 }
+@media (min-width: 320px) and (max-width: 341px) {
+  .boxes__icon {
+    margin: 0 0.8rem;
+  }
+}
 
 .in_projects_section {
   display: flex;
@@ -2632,6 +2744,7 @@ body {
 .row2 {
   overflow-y: auto;
   padding-bottom: 1.2rem;
+  overflow-x: hidden;
 }
 .row2::-webkit-scrollbar {
   display: none;
@@ -2741,6 +2854,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 1.5rem;
   margin-left: 0.5rem;
+  overflow-x: hidden;
 }
 .smallcards__flex {
   display: flex;
@@ -2807,6 +2921,7 @@ body {
 .sub_container_grid {
   display: grid;
   grid-template-columns: 8% 57% 35%;
+  overflow-y: hidden;
 }
 @media (max-width: 500px) {
   .sub_container_grid {
@@ -2822,6 +2937,7 @@ body {
 @media (max-width: 800px) {
   .col_1 {
     overflow-x: hidden;
+    height: 100vh;
   }
 }
 
@@ -2861,6 +2977,7 @@ body {
     width: 91vw;
     font-size: 100%;
     margin-left: 2rem;
+    height: 90vh;
   }
   .icon__flex {
     margin: 3rem 0 0 0;

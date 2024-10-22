@@ -4,13 +4,14 @@
   left: 50%;
   width: 100vw;
   height: 100vh;
-
   overflow: hidden;
+  overflow-y: hidden;
+
   @media (min-width: 3em) and (max-width: 50em) {
     height: 100vh;
   }
 
-  @media (max-width: 599px) {
+  @media (max-width: 799px) {
     overflow-y: visible;
     height: 100vh;
     margin: 0 0 0 0;

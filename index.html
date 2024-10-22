@@ -180,7 +180,7 @@
                 </article>
               </main>
               <section class="cards_section">
-                <div class="two_card_flex">
+                <div class="two_card_flex_first">
                   <div class="card_1">
                     <div class="cardinfo_flex">
                       <h1 class="cardflex__date">July 2,2020</h1>
@@ -523,7 +523,7 @@
                       </div>
                       <h1 class="smallcards__review">
                         Hey tell me about progress of project ? Waiting<br />
-                        for your response.
+                        for your response
                       </h1>
                       <h1 class="smallcards__date">21 July</h1>
                     </div>
@@ -685,28 +685,41 @@
         const homeboxIcon = document.getElementById("homeboxIcon");
         const iconColumnFlex = document.querySelector(".icon__flex");
         const col = document.getElementById("col");
+        const threeBigLineIcon = document.querySelector(".three_big_line_icon");
+        const col1 = document.querySelector(".col_1");
+        const col3 = document.querySelector(".col_3");
 
-        if (msgIcon && col && homeboxIcon && iconColumnFlex) {
-          msgIcon.addEventListener("click", function handleMsgClick() {
-            if (window.innerWidth < 799) {
-              console.log("Message Icon clicked");
-              col.classList.add("hidden");
-              msgIcon.classList.add("black-background");
-              iconColumnFlex.classList.add("hide-bg");
-            }
-          });
-
-          homeboxIcon.addEventListener("click", function handleHomeboxClick() {
-            if (window.innerWidth < 799) {
-              console.log("Homebox clicked");
-              col.classList.remove("hidden");
-              msgIcon.classList.remove("black-background");
-              iconColumnFlex.classList.toggle("hide-bg");
-            }
-          });
-        } else {
-          console.error("Element not found");
+        function handleIconClick() {
+          col1.classList.toggle("hidden2");
+          col3.classList.toggle("hidden2");
         }
+
+        function handleMsgClick() {
+          col.classList.add("hidden");
+          msgIcon.classList.add("black-background");
+          iconColumnFlex.classList.add("hide-bg");
+        }
+
+        function handleHomeboxClick() {
+          col.classList.remove("hidden");
+          msgIcon.classList.remove("black-background");
+          iconColumnFlex.classList.toggle("hide-bg");
+        }
+
+        function handleResize() {
+          if (window.innerWidth <= 799) {
+            threeBigLineIcon.addEventListener("click", handleIconClick);
+            msgIcon.addEventListener("click", handleMsgClick);
+            homeboxIcon.addEventListener("click", handleHomeboxClick);
+          } else {
+            threeBigLineIcon.removeEventListener("click", handleIconClick);
+            msgIcon.removeEventListener("click", handleMsgClick);
+            homeboxIcon.removeEventListener("click", handleHomeboxClick);
+          }
+        }
+
+        window.addEventListener("resize", handleResize);
+        handleResize();
       });
     </script>
   </body>
